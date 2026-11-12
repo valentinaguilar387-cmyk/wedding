@@ -1,0 +1,16 @@
+{
+  "wedding-sandbox-guard": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node /root/apps/shadow/wedding_sandbox_guard.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

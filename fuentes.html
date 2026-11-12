@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Tipografías - Valentín & Liliana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Great+Vibes&family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: #2b2118;
+      background-image: radial-gradient(circle at top, #3d2f22, #1f1710);
+      color: #f7f3ec;
+      font-family: 'Montserrat', sans-serif;
+      padding: 20px 15px 40px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .header {
+      text-align: center;
+      max-width: 500px;
+      margin-bottom: 25px;
+    }
+    .header h1 {
+      font-size: 1.5rem;
+      color: #dfba73;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+    .header p {
+      font-size: 0.9rem;
+      color: #cfc5b4;
+      line-height: 1.4;
+    }
+    .cards-container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .font-card {
+      background: #fffdf9;
+      color: #3b2c1a;
+      border-radius: 14px;
+      padding: 20px 18px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+      border: 1px solid #d4af37;
+      text-align: center;
+      position: relative;
+    }
+    .badge {
+      display: inline-block;
+      background: #8c6b38;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .preview-names {
+      color: #8c6b38;
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+    .preview-quote {
+      color: #5c4a30;
+      font-size: 0.9rem;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .font-desc {
+      font-size: 0.78rem;
+      color: #7a6e5d;
+      border-top: 1px dashed #d9cfbe;
+      padding-top: 8px;
+      margin-top: 6px;
+    }
+
+    /* ESTILOS DE FUENTE */
+    .f-cinzel { font-family: 'Cinzel', serif; font-size: 1.8rem; letter-spacing: 2px; }
+    .f-playfair { font-family: 'Playfair Display', serif; font-size: 2.2rem; }
+    .f-cormorant { font-family: 'Cormorant Garamond', serif; font-size: 2.3rem; font-style: italic; }
+    .f-montserrat { font-family: 'Montserrat', sans-serif; font-size: 1.7rem; font-weight: 600; letter-spacing: 3px; }
+    .f-greatvibes { font-family: 'Great Vibes', cursive; font-size: 2.6rem; }
+    .f-alexbrush { font-family: 'Alex Brush', cursive; font-size: 2.5rem; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Muestrario de Tipografías</h1>
+    <p>Mira cómo lucen sus nombres en cada estilo. Solo dime cuál opción te gusta más (Opción 1, 2, 3...) y la aplicamos.</p>
+  </div>
+
+  <div class="cards-container">
+
+    <!-- OPCIÓN 1 -->
+    <div class="font-card">
+      <span class="badge">Opción 1 · Romana Clásica (Sin Cursiva)</span>
+      <div class="preview-names f-cinzel">VALENTÍN & LILIANA</div>
+      <div class="preview-quote" style="font-family: 'Cinzel', serif; font-size: 0.85rem; letter-spacing: 1px;">
+        JUNTOS ES NUESTRO LUGAR FAVORITO
+      </div>
+      <div class="font-desc">Letra de imprenta majestuosa, formal, limpia y muy fácil de leer. Cero cursiva.</div>
+    </div>
+
+    <!-- OPCIÓN 2 -->
+    <div class="font-card">
+      <span class="badge">Opción 2 · Elegancia Editorial</span>
+      <div class="preview-names f-playfair">Valentín & Liliana</div>
+      <div class="preview-quote" style="font-family: 'Playfair Display', serif; font-style: italic; font-size: 1rem;">
+        "Juntos es nuestro lugar favorito"
+      </div>
+      <div class="font-desc">Estilo portada de revista de lujo: sobria, romántica y con mucha presencia.</div>
+    </div>
+
+    <!-- OPCIÓN 3 -->
+    <div class="font-card">
+      <span class="badge">Opción 3 · Caligrafía Fina (Alex Brush)</span>
+      <div class="preview-names f-alexbrush">Valentín & Liliana</div>
+      <div class="preview-quote" style="font-family: 'Alex Brush', cursive; font-size: 1.3rem;">
+        "Juntos es nuestro lugar favorito"
+      </div>
+      <div class="font-desc">Cursiva delicada tipo pluma clásica, más estilizada y ligera que Great Vibes.</div>
+    </div>
+
+    <!-- OPCIÓN 4 -->
+    <div class="font-card">
+      <span class="badge">Opción 4 · Literaria Antigua (Cormorant)</span>
+      <div class="preview-names f-cormorant">Valentín & Liliana</div>
+      <div class="preview-quote" style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.05rem;">
+        "Con la bendición de Dios y nuestros padres"
+      </div>
+      <div class="font-desc">Inspirada en libros clásicos de pergamino. Muy fina y sofisticada.</div>
+    </div>
+
+    <!-- OPCIÓN 5 -->
+    <div class="font-card">
+      <span class="badge">Opción 5 · Minimalista Moderna</span>
+      <div class="preview-names f-montserrat">VALENTÍN & LILIANA</div>
+      <div class="preview-quote" style="letter-spacing: 1px; font-size: 0.82rem; text-transform: uppercase;">
+        23 de Enero de 2027
+      </div>
+      <div class="font-desc">Letras rectas, contemporáneas, geométricas y ultra limpias.</div>
+    </div>
+
+    <!-- OPCIÓN 6 -->
+    <div class="font-card">
+      <span class="badge">Opción 6 · Cursiva Romántica (Great Vibes)</span>
+      <div class="preview-names f-greatvibes">Valentín & Liliana</div>
+      <div class="preview-quote" style="font-family: 'Great Vibes', cursive; font-size: 1.4rem;">
+        "Jardín de promesas"
+      </div>
+      <div class="font-desc">La cursiva tradicional de boda aplicada actualmente.</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

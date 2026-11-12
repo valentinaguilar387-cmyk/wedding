@@ -1,0 +1,10 @@
+{
+  "conversationId": "55bee0dc-5457-457b-bd37-7ad59db1989d",
+  "model": "gemini-3.8-flash-medium",
+  "workspace": "/root/apps/wedding",
+  "valentinPhone": "50379104159",
+  "turnsCount": 82,
+  "createdAt": "2026-11-09T17:11:24.000Z",
+  "updatedAt": "2026-11-12T22:32:32.897Z",
+  "paused": false
+}

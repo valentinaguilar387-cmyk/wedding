@@ -1,0 +1,65 @@
+[
+  {
+    "id": "PRG-01",
+    "hora": "15:30",
+    "actividad": "Recepción y bienvenida de invitados",
+    "responsable": "Hostess / Familia",
+    "notas": "Música instrumental de bienvenida"
+  },
+  {
+    "id": "PRG-02",
+    "hora": "16:00",
+    "actividad": "Inicio de Ceremonia (Cortejo y entrada de la novia)",
+    "responsable": "Oficiante / Coordinador",
+    "notas": "Puntualidad"
+  },
+  {
+    "id": "PRG-03",
+    "hora": "16:45",
+    "actividad": "Firma de acta, votos, intercambio de anillos y salida triunfal",
+    "responsable": "Novios y Testigos",
+    "notas": "Foto grupal al finalizar"
+  },
+  {
+    "id": "PRG-04",
+    "hora": "17:00",
+    "actividad": "Cóctel de bienvenida y sesión de fotos de los novios",
+    "responsable": "Catering / Fotógrafo",
+    "notas": "Bocadillos y bebidas refrescantes"
+  },
+  {
+    "id": "PRG-05",
+    "hora": "18:00",
+    "actividad": "Entrada de los esposos a la recepción y primer baile",
+    "responsable": "DJ / Maestro de ceremonias",
+    "notas": "Canción especial de los novios"
+  },
+  {
+    "id": "PRG-06",
+    "hora": "18:20",
+    "actividad": "Palabras de agradecimiento y brindis familiar",
+    "responsable": "Padres / Padrinos / Novios",
+    "notas": ""
+  },
+  {
+    "id": "PRG-07",
+    "hora": "18:45",
+    "actividad": "Cena principal",
+    "responsable": "Banquete / Catering",
+    "notas": "Música suave de sobremesa"
+  },
+  {
+    "id": "PRG-08",
+    "hora": "20:00",
+    "actividad": "Partido de pastel, ramo y apertura de pista de baile",
+    "responsable": "DJ / Novios",
+    "notas": ""
+  },
+  {
+    "id": "PRG-09",
+    "hora": "22:30",
+    "actividad": "Cierre del evento y despedida de los novios",
+    "responsable": "Coordinación",
+    "notas": ""
+  }
+]

@@ -1,0 +1,9 @@
+inbox_media/
+scripts/
+data/agy_session.json
+.gemini/
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+*.bak*
+*.old*

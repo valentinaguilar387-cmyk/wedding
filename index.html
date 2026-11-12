@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Boda Oscar & Yosselyn</title>
+  <title>Boda Liliana & Valentín</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- FORZAR MODO CLARO (Bloqueo para Samsung/Android) -->
@@ -13,11 +13,11 @@
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;400;600&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Tangerine:wght@400;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=zafiro_esmeralda_v14">
 </head>
-<body>
+<body class="modo-celeste">
   
   <!-- FONDO FIJO (BOSQUE) -->
   <div class="fondo-bosque-fijo"></div>
@@ -25,60 +25,113 @@
   <!-- PANTALLA DE INICIO (SOBRE) -->
   <div id="cover">
     <h2 class="intro-phrase">"Juntos es nuestro<br>lugar favorito"</h2>
-    <img src="img/sobre.jpg" id="envelope" alt="Abrir Invitación">
+    <div id="guest-pass-badge" class="guest-pass-badge" style="display:none;">
+      <span class="pass-badge-label">INVITACIÓN ESPECIAL PARA</span>
+      <span id="pass-badge-name" class="pass-badge-name"></span>
+      <span id="pass-badge-cupos" class="pass-badge-cupos"></span>
+    </div>
+    <img src="img/sobre-valentin.jpg?v=render_vl_clean" id="envelope" alt="Abrir Invitación">
     <p class="tap">TOCA EL SOBRE</p>
   </div>
+
+
+  <!-- SELECTOR DE PRUEBA DE DISEÑO (SOLO PRUEBA EN VIVO) -->
+  <div id="layout-test-bar" style="position:fixed; bottom:14px; left:50%; transform:translateX(-50%); z-index:9999; background:rgba(10,18,28,0.85); border:1px solid rgba(255,255,255,0.32); border-radius:999px; padding:5px 8px; display:flex; gap:6px; box-shadow:0 10px 28px rgba(0,0,0,0.55); backdrop-filter:blur(12px);">
+    <button type="button" onclick="setWeddingMode('modo-celeste')" id="btn-modo-1" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:linear-gradient(135deg,#7cc4f8,#3b82c4); color:#fff; font-weight:700; border:none; cursor:pointer;">💎 Zafiro (Cielo)</button>
+    <button type="button" onclick="setWeddingMode('modo-cristal')" id="btn-modo-2" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:transparent; color:#f3dfb5; font-weight:600; border:1px solid rgba(255,255,255,0.22); cursor:pointer;">💚 Esmeralda (Bosque)</button>
+    <button type="button" onclick="setWeddingMode('modo-9-hojas')" id="btn-modo-3" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:transparent; color:#f3dfb5; font-weight:600; border:1px solid rgba(255,255,255,0.22); cursor:pointer;">📜 9 Hojas</button>
+  </div>
+  <script>
+    function setWeddingMode(mode) {
+      document.body.classList.remove('modo-celeste', 'modo-sin-hojas', 'modo-cristal', 'modo-9-hojas');
+      document.body.classList.add(mode);
+      const map = { 'modo-celeste': 'btn-modo-1', 'modo-cristal': 'btn-modo-2', 'modo-9-hojas': 'btn-modo-3' };
+      ['btn-modo-1', 'btn-modo-2', 'btn-modo-3'].forEach(id => {
+        const b = document.getElementById(id);
+        if (!b) return;
+        if (id === map[mode]) {
+          if (mode === 'modo-celeste') {
+            b.style.background = 'linear-gradient(135deg,#7cc4f8,#3b82c4)';
+            b.style.color = '#fff';
+          } else if (mode === 'modo-cristal') {
+            b.style.background = 'linear-gradient(135deg,#34b37c,#16794d)';
+            b.style.color = '#fff';
+          } else {
+            b.style.background = '#c59b40';
+            b.style.color = '#111';
+          }
+          b.style.border = 'none';
+        } else {
+          b.style.background = 'transparent';
+          b.style.color = '#f3dfb5';
+          b.style.border = '1px solid rgba(255,255,255,0.22)';
+        }
+      });
+    }
+  </script>
 
   <!-- HISTORIA (CONTENIDO PRINCIPAL) -->
   <div id="story">
 
-    <!-- HOJA 1: PORTADA PRINCIPAL -->
+    <!-- HOJA 1: PORTADA PRINCIPAL (ESTILO POLAROID GRANDE ENTRE LETRAS) -->
     <section class="page">
-      <div class="paper portada-foto">
-        <div class="portada-content">
-          <!-- Título con fuente Tangerine -->
-          <h1>Oscar & Yosselyn</h1>
-          
-          <p class="intro-phrase">
-            <br>Con la bendición de Dios y nuestros padres: <br><br>
-            Digna Argelia Bonilla y Santos Aparicio Rivas<br>
-            Rosa Mercedes Galicia y Jorge Adalberto Rivas<br><br>
-            Nos complace invitarle a nuestra boda civil.
-          </p>
-         
+      <div class="paper portada-polaroid-section">
+        <p class="tagline-casamos-polaroid">¡Nos Casamos!</p>
+        <div class="polaroid-hero">
+          <img src="img/portada-novia.jpg?v=portada_novia_ok" alt="Liliana & Valentín">
         </div>
       </div>
     </section>
 
-    <!-- HOJA 2: FOTO Y TEXTO EMOTIVO -->
+    <!-- HOJA 2: BENDICIÓN DE LOS PADRES -->
     <section class="page">
-      <div class="paper">
+      <div class="paper hoja-bendicion">
+        <h2 class="nombres-bendicion">Liliana & Valentín</h2>
+        <div class="separador-dorado"></div>
+        
+        <p class="blessing-box">
+          <span class="blessing-header">Con la bendición de Dios y nuestros padres:</span>
+          <span class="parent-label">Madre de la Novia</span>
+          <span class="parent-name">Noemy Marín Mejía</span>
+          
+          <span class="parent-label">Padres del Novio</span>
+          <span class="parent-name">Juana Emilia Contreras de Aguilar<br>y Rigoberto Aguilar</span>
+          
+          <span class="invitation-text">Tenemos el honor de invitarle a celebrar nuestro matrimonio.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- HOJA 3: FOTO Y TEXTO EMOTIVO -->
+    <section class="page">
+      <div class="paper hoja-promesa">
         <h2>Jardín de promesas</h2>
-        <p class="photo-caption" style="font-size: 0.95rem; line-height: 1.5; margin-top: 15px;">
+        <p class="photo-caption">
           "Guiados por el amor, en una promesa compartida, hemos decidido unir nuestras vidas desde la convicción que nace en nuestros corazones. Este día no estaría completo sin la presencia de las personas que más amamos, quienes con su cariño nos han acompañado y han sido parte de esta hermosa historia."
         </p>
-        <div class="photo-frame">
-          <img src="img/foto-pag2.jpg" alt="Nosotros">
+        <div class="photo-frame-promesa">
+          <img src="img/foto-promesa.webp?v=promesa_fit2" alt="Valentín & Liliana">
         </div>
       </div>
     </section>
 
-    <!-- HOJA 3: INFO, CALENDARIO Y MAPA -->
+    <!-- SECCIÓN: FECHA, CALENDARIO Y CUENTA REGRESIVA -->
     <section class="page">
       <div class="paper">
         <h2>Nuestra Boda</h2>
+        <p class="fecha-subtitulo">Sábado 23 de Enero de 2027</p>
         
-        <!-- CALENDARIO FEBRERO 2026 -->
+        <!-- CALENDARIO ENERO 2027 -->
         <div class="calendar-wrapper">
-          <div class="month">FEBRERO 2026</div>
+          <div class="month">ENERO 2027</div>
           <div class="calendar-grid">
             <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
-            <!-- Febrero 2026 empieza en Domingo -->
-            <span></span><span></span><span></span><span></span><span></span><span></span><span>1</span>
-            <span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span>
-            <span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
-            <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span>
-            <span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span class="heart-date">28</span>
+            <!-- Enero 2027 empieza en Viernes -->
+            <span></span><span></span><span></span><span></span><span>1</span><span>2</span><span>3</span>
+            <span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+            <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span>
+            <span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span class="heart-date">23</span><span>24</span>
+            <span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
           </div>
         </div>
 
@@ -89,30 +142,182 @@
           <div class="time-box"><span id="minutes">00</span><small>Min</small></div>
           <div class="time-box"><span id="seconds">00</span><small>Seg</small></div>
         </div>
-
-        <div class="details-block">
-          <p><strong>Ceremonia & Recepción</strong><br>MONTEMILIA<br>Volcán de San Salvador<br>4:00 PM</p>
-          <a href="https://maps.app.goo.gl/om74T56VXAgdM1Vz5" target="_blank" class="btn-location">
-            Ver Ubicación en Mapa
-          </a>
-        </div>
       </div>
     </section>
 
-    <!-- HOJA 4: FOTO SOLA -->
+    <!-- SECCIÓN: UBICACIÓN DEL EVENTO (SEPARADA) -->
     <section class="page">
       <div class="paper">
-        <h2>Contigo, Siempre...</h2>
-        <div class="photo-frame">
-          <img src="img/foto-pag4.jpg" alt="Nosotros">
-        </div>
-        <div class="photo-frame">
-          <img src="img/foto-pag10.jpg" alt="Nosotros">
+        <svg viewBox="0 0 24 24" width="38" height="38" fill="none" stroke="#8c6b38" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 10px auto;">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        <h2>Ubicación</h2>
+        <div class="details-block">
+          <p class="venue-subtitle">Ceremonia & Recepción</p>
+          <p style="margin-bottom: 8px;">
+            <strong>El Morrito Salón de Eventos</strong><br>
+            Área de Jardín · 4:00 PM<br>
+            <span style="font-size: 0.84rem; opacity: 0.88;">Km 27 ½, Carretera a Santa Ana, San Juan Opico</span>
+          </p>
+          <img src="img/pinos-dorados.png?v=1" class="pinos-ubicacion" alt="Pinos del Jardín">
+          <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px;">
+            <a href="https://waze.com/ul?ll=13.7612473,-89.381066&q=El%20Morrito%20Sal%C3%B3n%20de%20Eventos&navigate=yes" target="_blank" class="btn-location" style="margin-top:0;">
+              🚗 Abrir en Waze
+            </a>
+            <a href="https://maps.google.com/?q=El+Morrito+Centro+de+Convenciones+San+Juan+Opico" target="_blank" class="btn-location" style="margin-top:0; background-color: #6b512a;">
+              📍 Google Maps
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- HOJA 5: DRESSCODE -->
+    <!-- SECCIÓN: PROGRAMA DE LA BODA (TIMELINE ILUSTRADO) -->
+    <section class="page">
+      <div class="paper hoja-programa">
+        <h2 class="programa-title">Programa de la Boda</h2>
+        
+        <div class="programa-timeline">
+          <!-- 1. CEREMONIA -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <circle cx="19" cy="27" r="9.5" fill="none" stroke="#8c6b38" stroke-width="2.2"/>
+                <circle cx="29" cy="23" r="9.5" fill="none" stroke="#8c6b38" stroke-width="2.2"/>
+                <path d="M29 13.5 L32 9.5 L35 13.5 L32 16.5 Z" fill="none" stroke="#8c6b38" stroke-width="1.8"/>
+                <line x1="32" y1="5.5" x2="32" y2="7.5" stroke="#8c6b38" stroke-width="1.6" stroke-linecap="round"/>
+                <line x1="25.5" y1="7.5" x2="27.5" y2="9.5" stroke="#8c6b38" stroke-width="1.6" stroke-linecap="round"/>
+                <line x1="38.5" y1="7.5" x2="36.5" y2="9.5" stroke="#8c6b38" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">CEREMONIA</span>
+              <span class="event-time">4:00 PM</span>
+            </div>
+          </div>
+
+          <!-- 2. CÓCTEL -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <path d="M14 10 L22 24 L22 36 M18 36 L26 36 M15 17 L21 17" fill="none" stroke="#8c6b38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M34 10 L26 24 L26 36 M22 36 L30 36 M33 17 L27 17" fill="none" stroke="#8c6b38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="24" cy="11" r="1.5" fill="#8c6b38"/>
+                <circle cx="21" cy="7" r="1" fill="#8c6b38"/>
+                <circle cx="27" cy="8" r="1.2" fill="#8c6b38"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">CÓCTEL</span>
+              <span class="event-time">5:00 PM</span>
+            </div>
+          </div>
+
+          <!-- 3. BAILE DE LOS NOVIOS -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <circle cx="21" cy="11" r="2.8" fill="none" stroke="#8c6b38" stroke-width="1.8"/>
+                <circle cx="27" cy="13" r="2.8" fill="none" stroke="#8c6b38" stroke-width="1.8"/>
+                <path d="M21 14 L19 25 L16 38 M21 21 L16 19 M21 25 L24 38" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M27 16 C25 21, 23 25, 20 28 C22 34, 25 39, 34 40 C31 35, 29 28, 27 21 Z" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linejoin="round"/>
+                <path d="M27 18 L32 23" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">BAILE DE LOS NOVIOS</span>
+              <span class="event-time">6:00 PM</span>
+            </div>
+          </div>
+
+          <!-- 4. CENA -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <circle cx="24" cy="24" r="11" fill="none" stroke="#8c6b38" stroke-width="2"/>
+                <circle cx="24" cy="24" r="7" fill="none" stroke="#8c6b38" stroke-width="1.4"/>
+                <path d="M8 15 L8 23 M6 15 L6 20 C6 22, 10 22, 10 20 L10 15 M8 23 L8 33" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M40 15 C38 18, 38 23, 40 24 L40 33" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">CENA</span>
+              <span class="event-time">6:45 PM</span>
+            </div>
+          </div>
+
+          <!-- 5. PASTEL -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <line x1="12" y1="38" x2="36" y2="38" stroke="#8c6b38" stroke-width="2" stroke-linecap="round"/>
+                <rect x="14" y="28" width="20" height="10" rx="1.5" fill="none" stroke="#8c6b38" stroke-width="1.8"/>
+                <rect x="18" y="20" width="12" height="8" rx="1.5" fill="none" stroke="#8c6b38" stroke-width="1.8"/>
+                <path d="M24 14 C22 17, 26 17, 24 20" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linecap="round"/>
+                <circle cx="24" cy="14" r="2" fill="none" stroke="#8c6b38" stroke-width="1.5"/>
+                <path d="M14 31 Q19 34 24 31 Q29 34 34 31" fill="none" stroke="#8c6b38" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">PASTEL</span>
+              <span class="event-time">8:00 PM</span>
+            </div>
+          </div>
+
+          <!-- 6. FIESTA -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <circle cx="16" cy="33" r="3.5" fill="#8c6b38"/>
+                <circle cx="31" cy="29" r="3.5" fill="#8c6b38"/>
+                <path d="M19.5 33 L19.5 16 L34.5 12 L34.5 29 M19.5 21 L34.5 17" fill="none" stroke="#8c6b38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 15 L14 11 L15 15 L19 16 L15 17 L14 21 L13 17 L9 16 Z" fill="#8c6b38"/>
+                <circle cx="36" cy="20" r="1.2" fill="#8c6b38"/>
+                <circle cx="27" cy="8" r="1.5" fill="#8c6b38"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">FIESTA</span>
+              <span class="event-time">8:30 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOJA 5: CONTIGO SIEMPRE -->
+    <section class="page">
+      <div class="paper hoja-contigo">
+        <h2>Contigo, Siempre...</h2>
+        <div class="photo-frame-contigo">
+          <img src="img/foto-contigo1.webp?v=1" alt="Valentín & Liliana">
+        </div>
+        <div class="photo-frame-contigo">
+          <img src="img/foto-contigo2.webp?v=1" alt="Valentín & Liliana">
+        </div>
+      </div>
+    </section>
+
+    <!-- HOJA 6: DRESSCODE -->
     <section class="page">
       <div class="paper">
         <svg class="hanger-icon" viewBox="0 0 24 24" width="40" height="40" style="margin-bottom:10px;">
@@ -120,43 +325,43 @@
         </svg>
 
         <!-- Título ajustado -->
-        <h2 class="dresscode-title">Dresscode - Formal Jardín</h2>
+        <h2 class="dresscode-title">Dresscode - Casual Jardín</h2>
         
         <!-- 1. IMAGEN PRINCIPAL (CSS Ajustado a 120px) -->
         <img src="img/dresscode-personas.jpg" class="dress-img blend-img" alt="Ejemplo vestimenta">
 
         <!-- 2. LISTAS (ELLAS/ELLOS) -->
-        <div class="dress-grid" style="margin-top: 10px; margin-bottom: 20px;">
+        <div class="dress-grid" style="margin-top: 10px; margin-bottom: 15px;">
           <div class="dress-col">
             <h4 class="gender-title">Ellas</h4>
             <ul class="dress-list">
-              <li>Vestido largo</li>
-              <li>Telas fluidas</li>
-              <li>Tacón ancho</li>
+              <li style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px;">Casual Jardín</li>
+              <li style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px; font-weight: 700; color: #5c3d1e;">Colores reservados:</li>
+              <li>• Blanco / Beige</li>
+              <li>• Rojo</li>
+              <li>• Azul Neblina</li>
             </ul>
           </div>
-          <div class="vertical-line"></div>
+          <div class="vertical-line" style="height: 125px;"></div>
           <div class="dress-col">
             <h4 class="gender-title">Ellos</h4>
             <ul class="dress-list">
-              <li>Traje completo o</li>
-              <li>Camisa manga larga</li>
-              <li>No jeans</li>
+              <li style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px;">Casual Jardín</li>
+              <li style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px; font-weight: 700; color: #5c3d1e;">Colores reservados:</li>
+              <li>• Azul Rey</li>
+              <li>• Azul Navy</li>
+              <li>• Azul Oscuro</li>
             </ul>
           </div>
         </div>
 
-        <!-- 3. COLORES RESERVADOS (CSS Ajustado a 50%) -->
-        <h3 class="subtitle-small">COLORES RESERVADOS</h3>
-        <p class="dress-note">
-          Queremos que te sientas cómodo/a, pero agradeceríamos mucho que nos ayudes a reservar estos colores exclusivamente para los novios.
+        <p class="dress-note" style="margin-top: 10px; font-size: 0.85rem;">
+          Agradecemos mucho ayudarnos a reservar estos tonos exclusivamente para los novios.
         </p>
-        
-        <img src="img/colores-prohibidos.jpg" class="colors-img blend-img" alt="Colores reservados">
       </div>
     </section>
 
-    <!-- HOJA 6: DETALLES (REGALOS Y NIÑOS) -->
+    <!-- HOJA 7: DETALLES (REGALOS Y NIÑOS) -->
     <section class="page">
       <div class="paper">
         <h2>Regalos</h2>
@@ -178,49 +383,56 @@
       </div>
     </section>
 
-    <!-- HOJA 7: NUESTROS MOMENTOS (SLIDESHOW) -->
+    <!-- HOJA 8: NUESTROS MOMENTOS (SLIDESHOW) -->
     <section class="page">
       <div class="paper">
         <h2>Momentos</h2>
         
         <div class="slideshow-container">
-            <!-- Fotos de la 1 a la 4 -->
-            <img src="img/foto1.jpg" class="slide" alt="Foto 1">
-            <img src="img/foto2.jpg" class="slide" alt="Foto 2">
-            <img src="img/foto3.jpg" class="slide" alt="Foto 3">
-            <img src="img/foto4.jpg" class="slide" alt="Foto 4">
+            <!-- Fotos de la 1 a la 3 (Inicia con la propuesta) -->
+            <img src="img/momento2.jpg?v=propuesta" class="slide" alt="¿Te quieres casar conmigo?">
+            <img src="img/momento1.jpg?v=propuesta" class="slide" alt="El Anillo">
+            <img src="img/momento3.jpg?v=propuesta" class="slide" alt="Cena Romántica">
         </div>
 
         <p class="photo-caption" style="margin-top:10px;">"Una historia escrita con el corazón"</p>
       </div>
     </section>
 
-    <!-- HOJA 8: CONFIRMACIÓN -->
+    <!-- HOJA 9: CONFIRMACIÓN -->
     <section class="page">
       <div class="paper">
         <h2>Confirmación</h2>
-        <p>Por favor confirma tu asistencia<br>antes del 10 de Febrero.</p>
+        <p>Por favor confirma tu asistencia<br>antes del 25 de Diciembre de 2026.</p>
+
+        <div id="rsvp-pass-summary" class="rsvp-pass-summary" style="display:none;"></div>
 
         <form id="rsvp-form" class="rsvp-form">
+          <input type="hidden" name="Codigo" id="rsvp-codigo" value="">
           <div class="input-group">
-            <input type="text" name="Nombre" placeholder="Nombre Completo" required>
+            <input type="text" name="Nombre" id="rsvp-nombre" placeholder="Nombre Completo" required>
           </div>
           <div class="radio-group">
             <label><input type="radio" name="Asistencia" value="Si" checked> ¡Sí voy!</label>
             <label><input type="radio" name="Asistencia" value="No"> No podré ir</label>
           </div>
-          <div class="input-group">
-            <input type="number" name="Personas" placeholder="Número de personas" min="1" max="5" required>
+          <div class="input-group" id="rsvp-personas-group">
+            <select name="Personas" id="rsvp-personas" required style="width:100%; padding:12px 14px; border-radius:10px; border:1px solid rgba(255,243,214,0.45); background:rgba(12,24,38,0.55); color:#fff; font-family:'Montserrat',sans-serif; font-size:0.92rem; outline:none;">
+              <option value="1">1 persona</option>
+              <option value="2">2 personas</option>
+              <option value="3">3 personas</option>
+              <option value="4">4 personas</option>
+            </select>
           </div>
           <div class="input-group">
-            <textarea name="Mensaje" placeholder="Dejanos un mensaje especial"></textarea>
+            <textarea name="Mensaje" placeholder="Déjanos un mensaje especial"></textarea>
           </div>
           <button type="submit" id="btn-submit">ENVIAR CONFIRMACIÓN</button>
         </form>
 
         <div id="rsvp-message" style="display:none; margin-top:20px;">
-          <h3 style="color:#5c6b48;">¡Gracias!</h3>
-          <p>Hemos recibido tu respuesta.</p>
+          <h3 style="color:#fff3d6;">¡Gracias!</h3>
+          <p id="rsvp-confirm-detail">Hemos registrado tu confirmación en nuestra lista oficial.</p>
         </div>
       </div>
     </section>
@@ -228,8 +440,8 @@
   </div> <!-- FIN DE STORY -->
 
   <!-- AUDIO -->
-  <audio id="music" src="audio/music.mp3" preload="auto" loop></audio>
+  <audio id="music" src="audio/music.mp3?v=melendi_la_promesa" preload="auto" loop></audio>
 
-  <script src="js/script.js"></script>
+  <script src="js/script.js?v=pases_v14"></script>
 </body>
 </html>

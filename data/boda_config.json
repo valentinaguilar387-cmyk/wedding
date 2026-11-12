@@ -1,0 +1,54 @@
+{
+  "proyecto": "Boda de Liliana & Valentín",
+  "novio": "Valentín",
+  "novia": "Liliana",
+  "telefono_novio": "50379104159",
+  "padres_novia": "Noemy Marín Mejía",
+  "padres_novio": "Juana Emilia Contreras de Aguilar y Rigoberto Aguilar",
+  "tipo_boda": "Por confirmar (Civil / Religiosa / Ambas)",
+  "fecha_boda": "2027-01-23",
+  "hora_evento": "4:00 PM",
+  "fecha_limite_rsvp": "25 de Diciembre de 2026",
+  "lugar_nombre": "El Morrito Salón de Eventos (Jardín)",
+  "lugar_direccion": "Km 27 ½, Carretera a Santa Ana, San Juan Opico, La Libertad",
+  "google_maps_url": "https://maps.google.com/?q=El+Morrito+Centro+de+Convenciones+San+Juan+Opico",
+  "frase_portada": "Juntos es nuestro lugar favorito",
+  "titulo_hoja2": "Jardín de promesas",
+  "mensaje_emotivo": "Guiados por el amor, en una promesa compartida, hemos decidido unir nuestras vidas desde la convicción que nace en nuestros corazones. Este día no estaría completo sin la presencia de las personas que más amamos, quienes con su cariño nos han acompañado y han sido parte de esta hermosa historia.",
+  "dresscode_titulo": "Dresscode - Casual Jardín",
+  "dresscode_ellas": [
+    "Casual Jardín",
+    "No usar: Blanco, Beige, Rojo, Azul Neblina"
+  ],
+  "dresscode_ellos": [
+    "Casual Jardín",
+    "No usar: Azul Rey, Azul Navy, Azul Oscuro"
+  ],
+  "colores_reservados_nota": "Queremos que te sientas cómodo/a, pero agradeceríamos mucho que nos ayudes a reservar estos colores exclusivamente para los novios.",
+  "regalos_tipo": "Regalo de sobre",
+  "regalos_nota": "Con mucho cariño, agradecemos sus muestras de afecto en regalo de sobre.",
+  "ninos_politica": "Amamos a los niños, pero hemos reservado este día para celebrar con adultos. Agradecemos infinitamente su comprensión.",
+  "musica_cancion": "Melendi - La Promesa",
+  "presupuesto_estimado_usd": 0,
+  "cupo_maximo_invitados": 100,
+  "fotos": {
+    "sobre": "img/sobre-valentin.jpg?v=2",
+    "fondo": "img/fondo-bosque.jpg",
+    "pergamino": "img/pergamino.webp",
+    "portada_novios": "img/portada-novia.jpg",
+    "foto_hoja2": "img/foto-promesa.webp?v=promesa1",
+    "foto_hoja4_1": "img/foto-contigo1.webp?v=1",
+    "foto_hoja4_2": "img/foto-contigo2.webp?v=1",
+    "carrusel": [
+      "img/momento2.jpg",
+      "img/momento1.jpg",
+      "img/momento3.jpg"
+    ],
+    "inbox_valentin_1": "img/valentin-liliana-1.jpg",
+    "inbox_valentin_2": "img/valentin-liliana-portada2.jpg"
+  },
+  "updated_at": "2026-11-12T20:54:49.179Z",
+  "waze_url": "https://waze.com/ul?ll=13.7612473,-89.381066&q=El%20Morrito%20Sal%C3%B3n%20de%20Eventos&navigate=yes",
+  "tipografia_seleccionada": "Opción 4 · Cormorant Garamond",
+  "layout_version": "v2_portada_protagonica_hoja2_bendicion"
+}

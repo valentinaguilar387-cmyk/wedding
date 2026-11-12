@@ -99,35 +99,226 @@ body {
   isolation: isolate;
 }
 
-/* --- PORTADA (FOTO) --- */
+/* --- PORTADA (FOTO REAL VALENTÍN Y LILIANA - NUEVA SELECCIÓN) --- */
 .portada-foto {
-  background-image: url("../img/portada-novios.webp"); 
-  background-size: 100% 100%; 
-  background-position: center; 
+  background-image: url("../img/portada-novia.jpg?v=portada_novia_ok"); 
+  background-size: cover; 
+  background-position: center 12%; 
   background-repeat: no-repeat;
-  justify-content: flex-end; 
-  padding-bottom: 50px; 
+  padding: 0 !important;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  border: 1.5px solid rgba(212, 175, 55, 0.6);
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* CONTENIDO PORTADA */
-.portada-content { width: 100%; text-align: center; }
+.portada-top-tag {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(10, 15, 10, 0.8) 0%, rgba(10, 15, 10, 0.4) 65%, transparent 100%);
+  padding: 28px 15px 18px;
+  z-index: 5;
+}
 
-.portada-content h1 {
-  font-family: 'Tangerine', cursive; 
+.tagline-casamos-gold {
+  font-family: 'Great Vibes', 'Tangerine', cursive;
+  font-size: 2.2rem;
+  color: #f3dfb5;
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.85);
+}
+
+/* CONTENIDO PORTADA (PARTE INFERIOR) */
+.portada-content-bottom { 
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center; 
+  background: linear-gradient(to top, rgba(10, 15, 10, 0.92) 0%, rgba(10, 15, 10, 0.65) 55%, transparent 100%);
+  padding: 40px 15px 24px;
+  z-index: 5;
+}
+
+.portada-content-bottom h1.portada-names {
+  font-family: 'Great Vibes', 'Tangerine', cursive !important; 
+  font-weight: 400 !important; 
+  font-size: 3.3rem !important; 
+  margin: 0 !important; 
+  line-height: 1.15 !important; 
+  color: #f8e8c8 !important; 
+  letter-spacing: 0.5px !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9) !important;
+  white-space: nowrap;
+}
+
+.tagline-casamos {
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #8c6b38;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0 0 8px rgba(255,255,255,0.9);
+}
+
+.portada-content h1.portada-names {
+  font-family: 'Cormorant Garamond', serif; 
   font-weight: 700; 
-  font-size: 4.5rem; 
+  font-size: 3.2rem; 
   margin-bottom: 5px; 
-  line-height: 0.8; 
-  color: #8c6b38; 
-  text-shadow: 2px 2px 0px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  line-height: 1.05; 
+  color: #2b180d; 
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0px rgba(255,255,255,0.95), -1px -1px 0 rgba(255,255,255,0.95), 1px -1px 0 rgba(255,255,255,0.95), -1px 1px 0 rgba(255,255,255,0.95), 0 0 12px #fff;
 }
 
-.portada-content .intro-phrase {
-  font-size: 1rem; font-weight: 600; line-height: 1.4; color: #8c6b38; 
-  text-shadow: 0 0 5px rgba(255,255,255,0.8); margin-bottom: 20px;
+/* --- HOJA 2: BENDICIÓN DE LOS PADRES --- */
+.hoja-bendicion {
+  justify-content: center;
+  padding: 75px 32px !important;
+}
+.monograma-hoja2 {
+  display: none !important;
+}
+.nombres-bendicion {
+  font-family: 'Great Vibes', 'Tangerine', cursive !important;
+  font-size: clamp(2.85rem, 8.5vw, 3.2rem) !important;
+  font-weight: 400 !important;
+  color: #8c6b38 !important;
+  margin-bottom: 6px !important;
+  line-height: 1.15 !important;
+  letter-spacing: 0.5px !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85) !important;
+}
+.separador-dorado {
+  width: 95px;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, #8c6b38, transparent);
+  margin: 6px auto 18px;
+  opacity: 0.75;
+}
+.blessing-box {
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.5;
+  color: #8c6b38 !important;
+  text-shadow: none !important;
+  margin-bottom: 0 !important;
+}
+.blessing-header {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #8c6b38;
+  display: block;
+  margin-bottom: 14px;
+}
+.parent-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #a3824c;
+  display: block;
+  margin-top: 14px;
+}
+.parent-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.32rem;
+  font-weight: 700;
+  color: #8c6b38;
+  display: block;
+  margin-top: 3px;
+  line-height: 1.3;
+}
+.invitation-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.22rem;
+  font-style: italic;
+  font-weight: 600;
+  color: #8c6b38;
+  display: block;
+  margin-top: 20px;
 }
 
 /* --- FOTOS ENMARCADAS --- */
+.hoja-promesa {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 65px 28px 45px !important;
+}
+.hoja-promesa h2 {
+  margin-bottom: 6px !important;
+}
+.hoja-promesa .photo-caption {
+  font-size: 0.90rem !important;
+  line-height: 1.4 !important;
+  margin: 0 0 12px 0 !important;
+  padding: 0 4px !important;
+}
+.photo-frame-promesa {
+  background-color: #ffffff;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+  border: 1px solid rgba(140, 107, 56, 0.25);
+  transform: none !important;
+  margin: 0 auto;
+  max-width: 82%;
+  display: flex;
+  justify-content: center;
+}
+.photo-frame-promesa img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  max-height: 235px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* --- HOJA 5: CONTIGO, SIEMPRE... --- */
+.hoja-contigo {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 55px 25px 40px !important;
+  gap: 10px;
+}
+.hoja-contigo h2 {
+  margin-bottom: 4px !important;
+}
+.photo-frame-contigo {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+  border: 1px solid rgba(140, 107, 56, 0.2);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.photo-frame-contigo img {
+  display: block;
+  max-width: 230px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
 .photo-frame {
   background-color: #fff;
   padding: 8px;
@@ -148,8 +339,9 @@ body {
 }
 
 .photo-caption { 
-  font-family: 'Dancing Script', cursive; 
-  font-size: 1.2rem; 
+  font-family: 'Cormorant Garamond', serif; 
+  font-style: italic;
+  font-size: 1.15rem; 
   color: #8c6b38; 
   margin-top: 10px; 
   line-height: 1.4;
@@ -158,9 +350,11 @@ body {
 /* --- CAMBIOS EN EL DRESSCODE (REDUCCIÓN) --- */
 
 .dresscode-title {
-  font-family: 'Dancing Script', cursive; 
-  font-size: 2rem; 
+  font-family: 'Cormorant Garamond', serif; 
+  font-size: 2.2rem; 
+  font-weight: 700;
   color: #8c6b38;
+  letter-spacing: 1px;
   margin-bottom: 10px;
   line-height: 1.2;
 }
@@ -188,30 +382,32 @@ body {
 
 /* --- SLIDESHOW --- */
 .slideshow-container {
-  width: 100%; max-width: 300px; height: 360px;
-  position: relative; margin: 20px auto;
-  background-color: #fff; padding: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); transform: rotate(-2deg);
+  width: 100%; max-width: 290px; height: 350px;
+  position: relative; margin: 15px auto;
+  background-color: #ffffff; padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(140, 107, 56, 0.25);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+  transform: none !important;
 }
 .slide {
-  position: absolute; top: 10px; left: 10px; width: calc(100% - 20px); height: calc(100% - 20px);
-  object-fit: cover; opacity: 0; animation: crossfade 16s infinite;
+  position: absolute; top: 8px; left: 8px; width: calc(100% - 16px); height: calc(100% - 16px);
+  object-fit: cover; opacity: 0; animation: crossfade3 12s infinite; border-radius: 4px;
 }
 .slide:nth-child(1) { animation-delay: 0s; }
 .slide:nth-child(2) { animation-delay: 4s; }
 .slide:nth-child(3) { animation-delay: 8s; }
-.slide:nth-child(4) { animation-delay: 12s; }
-@keyframes crossfade { 0% { opacity: 0; } 10% { opacity: 1; } 25% { opacity: 1; } 35% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes crossfade3 { 0% { opacity: 0; } 8% { opacity: 1; } 33% { opacity: 1; } 41% { opacity: 0; } 100% { opacity: 0; } }
 
 /* --- TIPOGRAFÍA Y OTROS --- */
-h1 { font-family: 'Dancing Script', cursive; font-size: 2.8rem; color: #8c6b38; margin-bottom: 10px; line-height: 1.2; }
-h2 { font-family: 'Dancing Script', cursive; font-size: 2.2rem; color: #8c6b38; margin-bottom: 15px; }
+h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; color: #8c6b38; margin-bottom: 10px; line-height: 1.2; letter-spacing: 1px; }
+h2 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: #8c6b38; margin-bottom: 15px; letter-spacing: 1px; }
 p { font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; }
 
 @keyframes latido { 0% { transform: scale(1); } 50% { transform: scale(1.1); } 100% { transform: scale(1); } }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } }
 .hidden { opacity: 0 !important; pointer-events: none; }
-.intro-phrase { font-family: 'Dancing Script', cursive; color: #ffff; font-size: 2rem; text-align: center; margin-bottom: 30px; text-shadow: 0 2px 5px rgba(0,0,0,0.8); animation: fadeUp 2s ease; }
+.intro-phrase { font-family: 'Cormorant Garamond', serif; font-style: italic; color: #ffff; font-size: 2.2rem; text-align: center; margin-bottom: 30px; text-shadow: 0 2px 5px rgba(0,0,0,0.8); animation: fadeUp 2s ease; }
 
 /* COMPONENTES EXTRA */
 .calendar-wrapper { margin: 10px auto; width: 90%; border-top: 1px solid #8c6b38; border-bottom: 1px solid #8c6b38; padding: 10px 0; }
@@ -234,7 +430,7 @@ p { font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; }
 .dress-grid { display: flex; justify-content: center; align-items: flex-start; width: 100%; margin-top: 10px; }
 .dress-col { flex: 1; padding: 0 5px; }
 .vertical-line { width: 1px; background-color: #8c6b38; height: 80px; margin: 10px 10px; opacity: 0.4; }
-.gender-title { font-family: 'Dancing Script', cursive; font-size: 1.5rem; color: #8c6b38; margin-bottom: 8px; }
+.gender-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 600; color: #8c6b38; margin-bottom: 8px; }
 .dress-list { list-style: none; padding: 0; margin: 0; }
 .dress-list li { font-size: 0.8rem; margin-bottom: 4px; color: #8c6b38; }
 
@@ -245,3 +441,932 @@ p { font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; }
 .radio-group { display: flex; justify-content: space-around; margin: 5px 0; font-size: 0.9rem; accent-color: #8c6b38; }
 button[type="submit"] { background-color: #8c6b38; color: white; border: none; padding: 12px; font-family: 'Montserrat', sans-serif; font-weight: bold; letter-spacing: 1px; cursor: pointer; border-radius: 25px; margin-top: 10px; transition: background 0.3s; }
 button[type="submit"]:hover { background-color: #6b512a; }
+
+
+/* ==========================================================================
+   MODO PRUEBA: UNA SOLA APP CONTINUA SOBRE EL FONDO DE HOJAS (MINIMALISTA EDITORIAL)
+   ========================================================================== */
+body.modo-celeste .fondo-bosque-fijo,
+body.modo-cristal .fondo-bosque-fijo {
+  filter: brightness(0.42) contrast(1.06) saturate(1.05);
+}
+
+body.modo-celeste #story {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 0 0 80px 0;
+  background: linear-gradient(180deg, rgba(10, 18, 12, 0.28) 0%, rgba(10, 18, 12, 0.50) 100%);
+  position: relative;
+}
+
+body.modo-cristal #story {
+  max-width: 420px;
+  width: 92%;
+  margin: 20px auto 85px auto;
+  padding: 0 0 40px 0;
+  background: rgba(14, 23, 16, 0.62);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: none !important;
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(243, 223, 181, 0.16);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Sin cenefas laterales repetitivas */
+body.modo-cristal #story::before,
+body.modo-cristal #story::after {
+  display: none !important;
+}
+
+body.modo-celeste .page,
+body.modo-cristal .page {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.modo-celeste .paper,
+body.modo-cristal .paper {
+  background-image: none !important;
+  background-color: transparent !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  aspect-ratio: auto !important;
+  min-height: auto !important;
+  height: auto !important;
+  padding: 42px 30px 46px 30px !important;
+  filter: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+  position: relative;
+}
+
+/* Divisor horizontal de alta joyería (hilo champagne ahusado + dos hojitas finas y lucero central) */
+body.modo-celeste .page:not(:last-child) .paper:not(.portada-foto)::after,
+body.modo-cristal .page:not(:last-child) .paper:not(.portada-foto)::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 18px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22260%22%20height%3D%2220%22%20viewBox%3D%220%200%20260%2020%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22lgL%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%220%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f3dfb5%22%20stop-opacity%3D%220%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2265%25%22%20stop-color%3D%22%23e8cf9c%22%20stop-opacity%3D%220.45%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f7e7be%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22lgR%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%220%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f7e7be%22%20stop-opacity%3D%220.85%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2235%25%22%20stop-color%3D%22%23e8cf9c%22%20stop-opacity%3D%220.45%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f3dfb5%22%20stop-opacity%3D%220%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3C%21--%20Left%20%26%20right%20tapered%20hairlines%20--%3E%0A%20%20%3Cline%20x1%3D%226%22%20y1%3D%2210%22%20x2%3D%22105%22%20y2%3D%2210%22%20stroke%3D%22url%28%23lgL%29%22%20stroke-width%3D%220.75%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Cline%20x1%3D%22155%22%20y1%3D%2210%22%20x2%3D%22254%22%20y2%3D%2210%22%20stroke%3D%22url%28%23lgR%29%22%20stroke-width%3D%220.75%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3C%21--%20Delicate%20left%20botanical%20leaf%20outline%20--%3E%0A%20%20%3Cpath%20d%3D%22M124%2C10%20C118%2C5.5%20111%2C5.8%20107%2C10%20C111%2C14.2%20118%2C14.5%20124%2C10%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23f3dfb5%22%20stroke-width%3D%220.75%22%20stroke-opacity%3D%220.85%22/%3E%0A%20%20%3C%21--%20Delicate%20right%20botanical%20leaf%20outline%20--%3E%0A%20%20%3Cpath%20d%3D%22M136%2C10%20C142%2C5.5%20149%2C5.8%20153%2C10%20C149%2C14.2%20142%2C14.5%20136%2C10%20Z%22%20fill%3D%22none%22%20stroke%3D%22%23f3dfb5%22%20stroke-width%3D%220.75%22%20stroke-opacity%3D%220.85%22/%3E%0A%20%20%3C%21--%20Center%204-point%20fine%20star%20jewel%20--%3E%0A%20%20%3Cpath%20d%3D%22M130%2C4.5%20Q130%2C10%20135.5%2C10%20Q130%2C10%20130%2C15.5%20Q130%2C10%20124.5%2C10%20Q130%2C10%20130%2C4.5%20Z%22%20fill%3D%22%23f7e7be%22%20opacity%3D%220.92%22/%3E%0A%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  opacity: 0.88;
+}
+
+body.modo-cristal .paper.hoja-bendicion::before {
+  display: none !important;
+}
+
+/* Portada principal integrada con desvanecido suave hacia el cristal */
+body.modo-celeste .paper.portada-foto,
+body.modo-cristal .paper.portada-foto {
+  background-image: url("../img/portada-novia.jpg?v=portada_novia_ok") !important;
+  background-size: cover !important;
+  background-position: center 12% !important;
+  min-height: 78vh !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 28px 28px 0 0 !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4) !important;
+  overflow: hidden;
+}
+
+/* Separadores internos sutiles (hilo fino con destello central) */
+body.modo-celeste .separador-dorado,
+body.modo-celeste .separator,
+body.modo-cristal .separador-dorado,
+body.modo-cristal .separator {
+  width: 150px !important;
+  height: 14px !important;
+  background: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22160%22%20height%3D%2214%22%20viewBox%3D%220%200%20160%2014%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22ig%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%220%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f3dfb5%22%20stop-opacity%3D%220%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23f7e7be%22%20stop-opacity%3D%220.75%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f3dfb5%22%20stop-opacity%3D%220%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cline%20x1%3D%228%22%20y1%3D%227%22%20x2%3D%2272%22%20y2%3D%227%22%20stroke%3D%22url%28%23ig%29%22%20stroke-width%3D%220.7%22/%3E%0A%20%20%3Cline%20x1%3D%2288%22%20y1%3D%227%22%20x2%3D%22152%22%20y2%3D%227%22%20stroke%3D%22url%28%23ig%29%22%20stroke-width%3D%220.7%22/%3E%0A%20%20%3Cpath%20d%3D%22M80%2C3%20Q80%2C7%2084%2C7%20Q80%2C7%2080%2C11%20Q80%2C7%2076%2C7%20Q80%2C7%2080%2C3%20Z%22%20fill%3D%22%23f7e7be%22%20opacity%3D%220.85%22/%3E%0A%3C/svg%3E") no-repeat center / contain !important;
+  margin: 10px auto 18px !important;
+  opacity: 0.85 !important;
+}
+
+/* Marcos de fotos limpios y editoriales */
+body.modo-celeste .photo-frame-promesa,
+body.modo-celeste .photo-frame-contigo,
+body.modo-celeste .slideshow-container,
+body.modo-cristal .photo-frame-promesa,
+body.modo-cristal .photo-frame-contigo,
+body.modo-cristal .slideshow-container {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  padding: 6px !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.38) !important;
+}
+
+/* Tipografía champagne & marfil */
+body.modo-celeste h1,
+body.modo-celeste h2,
+body.modo-celeste .nombres-bendicion,
+body.modo-celeste .dresscode-title,
+body.modo-celeste .gender-title,
+body.modo-cristal h1,
+body.modo-cristal h2,
+body.modo-cristal .nombres-bendicion,
+body.modo-cristal .dresscode-title,
+body.modo-cristal .gender-title {
+  color: #f3dfb5 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7) !important;
+}
+
+body.modo-celeste p,
+body.modo-celeste .blessing-box,
+body.modo-celeste .blessing-header,
+body.modo-celeste .parent-name,
+body.modo-celeste .invitation-text,
+body.modo-celeste .photo-caption,
+body.modo-celeste .dress-note,
+body.modo-celeste .dress-list li,
+body.modo-celeste .details-block p,
+body.modo-celeste .radio-group label,
+body.modo-cristal p,
+body.modo-cristal .blessing-box,
+body.modo-cristal .blessing-header,
+body.modo-cristal .parent-name,
+body.modo-cristal .invitation-text,
+body.modo-cristal .photo-caption,
+body.modo-cristal .dress-note,
+body.modo-cristal .dress-list li,
+body.modo-cristal .details-block p,
+body.modo-cristal .radio-group label {
+  color: #fdfaf2 !important;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.75) !important;
+}
+
+body.modo-celeste .parent-label,
+body.modo-cristal .parent-label {
+  color: #dfc288 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Divisor vertical minimalista con desvanecido suave */
+body.modo-celeste .vertical-line,
+body.modo-cristal .vertical-line {
+  width: 1px !important;
+  background: linear-gradient(180deg, transparent, rgba(243, 223, 181, 0.4), transparent) !important;
+  opacity: 1 !important;
+}
+
+/* Calendario limpio sin bordes duros */
+body.modo-celeste .calendar-wrapper,
+body.modo-cristal .calendar-wrapper {
+  border-top: none !important;
+  border-bottom: none !important;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 16px 12px !important;
+}
+
+body.modo-celeste .month,
+body.modo-cristal .month {
+  color: #f3dfb5 !important;
+}
+
+body.modo-celeste .calendar-grid,
+body.modo-cristal .calendar-grid {
+  color: #fdfaf2 !important;
+}
+
+body.modo-celeste .heart-date,
+body.modo-cristal .heart-date {
+  background-color: #d4af37 !important;
+  color: #111 !important;
+}
+
+body.modo-celeste .time-box,
+body.modo-cristal .time-box {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  backdrop-filter: blur(4px);
+}
+
+body.modo-celeste .time-box span,
+body.modo-cristal .time-box span {
+  color: #f3dfb5 !important;
+}
+
+body.modo-celeste .time-box small,
+body.modo-cristal .time-box small {
+  color: #e8e0cf !important;
+}
+
+/* Botones sobrios y elegantes */
+body.modo-celeste .btn-location,
+body.modo-cristal .btn-location,
+body.modo-celeste button[type="submit"],
+body.modo-cristal button[type="submit"] {
+  background: rgba(212, 175, 55, 0.85) !important;
+  color: #141a14 !important;
+  font-weight: 600 !important;
+  border: none !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Imagen Dresscode e íconos SVG */
+body.modo-celeste .blend-img,
+body.modo-cristal .blend-img {
+  mix-blend-mode: normal !important;
+  background: rgba(255, 252, 245, 0.94);
+  padding: 8px 14px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+body.modo-celeste svg,
+body.modo-cristal svg,
+body.modo-celeste svg path,
+body.modo-cristal svg path {
+  stroke: #f3dfb5 !important;
+}
+
+/* Formulario RSVP minimalista */
+body.modo-celeste .input-group input,
+body.modo-celeste .input-group textarea,
+body.modo-cristal .input-group input,
+body.modo-cristal .input-group textarea {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #2b1d0c !important;
+}
+
+
+/* --- CRISTAL DE GEMA: ZAFIRO (CIELO) & ESMERALDA (BOSQUE) + POLAROID + ITINERARIO --- */
+
+/* 1. FONDOS REALES VIVO Y LUMINOSOS (PARA QUE EL CRISTAL REFRACTE LO QUE HAY DETRÁS) */
+body.modo-cristal .fondo-bosque-fijo {
+  background: url("../img/fondo-bosque.jpg") center center / cover no-repeat !important;
+  filter: brightness(0.68) contrast(1.08) saturate(1.22) !important;
+}
+
+body.modo-celeste .fondo-bosque-fijo {
+  background: url("../img/fondo-cielo.jpg?v=sky_sapphire1") center center / cover no-repeat !important;
+  filter: brightness(0.84) contrast(1.05) saturate(1.15) !important;
+}
+
+body.modo-celeste .fondo-bosque-fijo::after {
+  display: none !important;
+}
+
+body.modo-celeste #cover {
+  background-color: rgba(12, 30, 56, 0.28) !important;
+}
+
+/* 2. EFECTO ÓPTICO ESMERALDA TRANSLÚCIDA (MODO CRISTAL VERDE) */
+body.modo-cristal #story {
+  max-width: 420px !important;
+  width: 92% !important;
+  margin: 22px auto 90px auto !important;
+  padding: 0 0 42px 0 !important;
+  /* Cristal Esmeralda: alta transparencia + brillo especular diagonal */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(16, 118, 74, 0.24) 30%,
+    rgba(8, 56, 36, 0.34) 68%,
+    rgba(95, 230, 165, 0.18) 100%
+  ) !important;
+  backdrop-filter: blur(11px) saturate(1.55) contrast(1.06) !important;
+  -webkit-backdrop-filter: blur(11px) saturate(1.55) contrast(1.06) !important;
+  border: none !important;
+  border-radius: 30px !important;
+  /* Bisel 3D de cristal tallado Esmeralda */
+  box-shadow:
+    0 26px 60px rgba(0, 14, 8, 0.52),
+    inset 0 1.5px 1px rgba(255, 255, 255, 0.55),
+    inset 1.5px 0 1px rgba(255, 255, 255, 0.22),
+    inset -1px -1.5px 2px rgba(4, 38, 22, 0.55),
+    inset 0 0 42px rgba(52, 211, 140, 0.16) !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+/* 3. EFECTO ÓPTICO ZAFIRO TRANSLÚCIDO (MODO CELESTE / CIELO) */
+body.modo-celeste #story {
+  max-width: 420px !important;
+  width: 92% !important;
+  margin: 22px auto 90px auto !important;
+  padding: 0 0 42px 0 !important;
+  /* Cristal Zafiro: alta transparencia sobre las nubes del cielo + reflejo especular */
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(42, 126, 208, 0.22) 32%,
+    rgba(16, 62, 128, 0.32) 68%,
+    rgba(145, 218, 255, 0.20) 100%
+  ) !important;
+  backdrop-filter: blur(11px) saturate(1.50) contrast(1.05) !important;
+  -webkit-backdrop-filter: blur(11px) saturate(1.50) contrast(1.05) !important;
+  border: none !important;
+  border-radius: 30px !important;
+  /* Bisel 3D de cristal tallado Zafiro */
+  box-shadow:
+    0 26px 60px rgba(6, 20, 44, 0.48),
+    inset 0 1.5px 1px rgba(255, 255, 255, 0.68),
+    inset 1.5px 0 1px rgba(255, 255, 255, 0.30),
+    inset -1px -1.5px 2px rgba(10, 42, 92, 0.50),
+    inset 0 0 45px rgba(120, 202, 255, 0.20) !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+/* Reflejo superior sutil de luz en el cristal (efecto lente/gema) */
+body.modo-cristal #story::before,
+body.modo-celeste #story::before {
+  display: block !important;
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 220px !important;
+  width: 100% !important;
+  background: radial-gradient(ellipse at 30% 0%, rgba(255, 255, 255, 0.22) 0%, transparent 70%) !important;
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+/* 4. PORTADA ESTILO POLAROID GRANDE ENTRE "¡Nos Casamos!" y "Liliana & Valentín" */
+.portada-polaroid-section {
+  justify-content: center;
+  padding: 44px 24px 48px 24px !important;
+  z-index: 2;
+}
+
+.tagline-casamos-polaroid {
+  font-family: 'Great Vibes', 'Tangerine', cursive;
+  font-size: 2.45rem;
+  color: #8c6b38;
+  margin: 0 0 12px 0 !important;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.polaroid-hero {
+  background-color: #ffffff;
+  padding: 11px 11px 34px 11px;
+  border-radius: 4px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.38);
+  transform: rotate(-1.3deg);
+  width: 92%;
+  max-width: 312px;
+  margin: 6px auto 6px auto;
+}
+
+.polaroid-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 395px;
+  object-fit: cover;
+  object-position: center 12%;
+  border-radius: 2px;
+}
+
+.portada-names-polaroid {
+  font-family: 'Great Vibes', 'Tangerine', cursive !important;
+  font-weight: 400 !important;
+  font-size: clamp(2.85rem, 8.5vw, 3.2rem) !important;
+  color: #8c6b38 !important;
+  margin: 4px 0 0 0 !important;
+  line-height: 1.15 !important;
+  white-space: nowrap;
+}
+
+/* Coherencia Polaroid en el resto de fotografías */
+body.modo-celeste .photo-frame-promesa,
+body.modo-cristal .photo-frame-promesa {
+  background: #ffffff !important;
+  padding: 9px 9px 26px 9px !important;
+  border-radius: 4px !important;
+  transform: rotate(1.2deg) !important;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.36) !important;
+}
+
+body.modo-celeste .photo-frame-contigo:nth-of-type(1),
+body.modo-cristal .photo-frame-contigo:nth-of-type(1) {
+  background: #ffffff !important;
+  padding: 8px 8px 22px 8px !important;
+  border-radius: 4px !important;
+  transform: rotate(-1.4deg) !important;
+}
+
+body.modo-celeste .photo-frame-contigo:nth-of-type(2),
+body.modo-cristal .photo-frame-contigo:nth-of-type(2) {
+  background: #ffffff !important;
+  padding: 8px 8px 22px 8px !important;
+  border-radius: 4px !important;
+  transform: rotate(1.4deg) !important;
+}
+
+body.modo-celeste .slideshow-container,
+body.modo-cristal .slideshow-container {
+  background: #ffffff !important;
+  padding: 9px 9px 28px 9px !important;
+  border-radius: 4px !important;
+}
+
+body.modo-celeste .slide,
+body.modo-cristal .slide {
+  top: 9px !important;
+  left: 9px !important;
+  width: calc(100% - 18px) !important;
+  height: calc(100% - 37px) !important;
+  border-radius: 2px !important;
+}
+
+/* 5. CONTRASTE NÍTIDO DE TEXTOS SOBRE EL CRISTAL TRANSLÚCIDO */
+body.modo-cristal .tagline-casamos-polaroid,
+body.modo-cristal .portada-names-polaroid,
+body.modo-cristal h1,
+body.modo-cristal h2,
+body.modo-cristal .nombres-bendicion,
+body.modo-cristal .dresscode-title,
+body.modo-cristal .gender-title {
+  color: #f8e8c2 !important;
+  text-shadow: 0 2px 12px rgba(0, 22, 12, 0.85), 0 1px 3px rgba(0, 0, 0, 0.75) !important;
+}
+
+body.modo-celeste .tagline-casamos-polaroid,
+body.modo-celeste .portada-names-polaroid,
+body.modo-celeste h1,
+body.modo-celeste h2,
+body.modo-celeste .nombres-bendicion,
+body.modo-celeste .dresscode-title,
+body.modo-celeste .gender-title {
+  color: #fff3d6 !important;
+  text-shadow: 0 2px 12px rgba(8, 30, 62, 0.82), 0 1px 3px rgba(6, 20, 44, 0.75) !important;
+}
+
+body.modo-celeste p,
+body.modo-celeste .blessing-box,
+body.modo-celeste .blessing-header,
+body.modo-celeste .parent-name,
+body.modo-celeste .invitation-text,
+body.modo-celeste .photo-caption,
+body.modo-celeste .dress-note,
+body.modo-celeste .dress-list li,
+body.modo-celeste .details-block p,
+body.modo-celeste .radio-group label {
+  color: #ffffff !important;
+  text-shadow: 0 1px 8px rgba(8, 30, 62, 0.85), 0 1px 2px rgba(0, 0, 0, 0.65) !important;
+}
+
+body.modo-celeste .parent-label {
+  color: #e4f2ff !important;
+  letter-spacing: 2.8px !important;
+  text-shadow: 0 1px 6px rgba(8, 30, 62, 0.85) !important;
+}
+
+/* Facetas translúcidas en Calendario y Cuenta Regresiva */
+body.modo-cristal .calendar-wrapper,
+body.modo-celeste .calendar-wrapper {
+  background: rgba(255, 255, 255, 0.10) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35), 0 8px 20px rgba(0, 0, 0, 0.18) !important;
+  backdrop-filter: blur(6px);
+}
+
+body.modo-celeste .heart-date {
+  background: linear-gradient(135deg, #8fd0ff, #4a90d9) !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 12px rgba(143, 208, 255, 0.8) !important;
+}
+
+body.modo-cristal .time-box,
+body.modo-celeste .time-box {
+  background: rgba(255, 255, 255, 0.13) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42), 0 6px 14px rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(6px) !important;
+}
+
+body.modo-celeste .time-box span {
+  color: #ffffff !important;
+  text-shadow: 0 1px 6px rgba(8, 30, 62, 0.7) !important;
+}
+
+body.modo-celeste .time-box small {
+  color: #e4f2ff !important;
+}
+
+body.modo-celeste .btn-location,
+body.modo-celeste button[type="submit"] {
+  background: linear-gradient(135deg, rgba(125, 198, 250, 0.92) 0%, rgba(56, 128, 198, 0.92) 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 8px 20px rgba(8, 28, 56, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.5) !important;
+}
+
+body.modo-cristal .btn-location,
+body.modo-cristal button[type="submit"] {
+  background: linear-gradient(135deg, rgba(54, 178, 120, 0.90) 0%, rgba(22, 118, 74, 0.92) 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 8px 20px rgba(0, 20, 12, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.45) !important;
+}
+
+/* 6. SUBTÍTULOS E ITINERARIO */
+.fecha-subtitulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.18rem;
+  color: #8c6b38;
+  margin-bottom: 12px !important;
+}
+
+.venue-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.38rem;
+  font-weight: 700;
+  color: #8c6b38;
+  margin-bottom: 6px !important;
+}
+
+.itinerary-timeline {
+  width: 100%;
+  max-width: 310px;
+  margin: 12px auto 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.itinerary-timeline::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 96px;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, rgba(140, 107, 56, 0.55) 15%, rgba(140, 107, 56, 0.55) 85%, transparent);
+}
+
+body.modo-cristal .itinerary-timeline::before,
+body.modo-celeste .itinerary-timeline::before {
+  background: linear-gradient(180deg, transparent, rgba(255, 243, 214, 0.65) 15%, rgba(255, 243, 214, 0.65) 85%, transparent);
+}
+
+.itinerary-item {
+  display: grid;
+  grid-template-columns: 84px 25px 1fr;
+  align-items: center;
+  text-align: left;
+}
+
+.itinerary-time {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: right;
+  color: #8c6b38;
+  padding-right: 4px;
+}
+
+body.modo-cristal .itinerary-time {
+  color: #f8e8c2 !important;
+  text-shadow: 0 1px 6px rgba(0, 22, 12, 0.8);
+}
+
+body.modo-celeste .itinerary-time {
+  color: #e4f2ff !important;
+  text-shadow: 0 1px 6px rgba(8, 30, 62, 0.8);
+}
+
+.itinerary-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #8c6b38;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 0 3px rgba(140, 107, 56, 0.18);
+}
+
+body.modo-cristal .itinerary-dot {
+  background-color: #f8e8c2;
+  box-shadow: 0 0 10px rgba(110, 240, 175, 0.8);
+}
+
+body.modo-celeste .itinerary-dot {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(140, 210, 255, 0.9);
+}
+
+.itinerary-event {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4b3b26;
+  padding-left: 6px;
+  line-height: 1.2;
+}
+
+body.modo-cristal .itinerary-event {
+  color: #ffffff !important;
+  text-shadow: 0 1px 8px rgba(0, 22, 12, 0.85);
+}
+
+body.modo-celeste .itinerary-event {
+  color: #ffffff !important;
+  text-shadow: 0 1px 8px rgba(8, 30, 62, 0.85);
+}
+
+/* ==========================================================================
+   PROGRAMA DE LA BODA — TIMELINE ILUSTRADO (ICONOS NUPCIALES PARTYON STYLE)
+   ========================================================================== */
+.hoja-programa {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 50px 22px 42px !important;
+}
+
+.programa-title {
+  font-family: 'Great Vibes', 'Tangerine', cursive !important;
+  font-size: 2.85rem !important;
+  font-weight: 400 !important;
+  color: #8c6b38 !important;
+  margin: 0 0 12px 0 !important;
+  line-height: 1.15 !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9) !important;
+}
+
+.programa-timeline {
+  width: 100%;
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 52px;
+}
+
+.timeline-icon {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.timeline-icon .icon-svg {
+  width: 38px;
+  height: 38px;
+  display: block;
+}
+
+.timeline-spine {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.timeline-spine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.5px;
+  background-color: #8c6b38;
+  opacity: 0.6;
+}
+
+.timeline-row:first-child .timeline-spine::before {
+  top: 50%;
+}
+
+.timeline-row:last-child .timeline-spine::before {
+  bottom: 50%;
+}
+
+.timeline-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #8c6b38;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 0 2px #fdfbf7;
+}
+
+.timeline-label {
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-label .event-name {
+  font-family: 'Cinzel', 'Cormorant Garamond', serif;
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  color: #3b2816;
+  line-height: 1.2;
+}
+
+.timeline-label .event-time {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: #8c6b38;
+  margin-top: 2px;
+  letter-spacing: 0.6px;
+}
+
+
+
+
+/* Ilustración de pinos a lápiz en tono dorado sin fondo debajo de la dirección */
+.pinos-ubicacion {
+  display: block;
+  width: 78%;
+  max-width: 245px;
+  height: auto;
+  margin: 10px auto 6px auto;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+  opacity: 0.92;
+}
+
+body.modo-9-hojas .pinos-ubicacion {
+  filter: brightness(0.55) sepia(0.8) saturate(1.8) hue-rotate(-10deg);
+}
+
+/* --- CORRECCIÓN DE COLORES EN PROGRAMA DE LA BODA E ÍCONOS SVG (ZAFIRO & ESMERALDA) --- */
+body.modo-celeste svg,
+body.modo-cristal svg {
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.55));
+}
+
+body.modo-celeste svg path,
+body.modo-celeste svg circle:not([fill="#8c6b38"]),
+body.modo-celeste svg line,
+body.modo-celeste svg rect,
+body.modo-celeste svg polyline,
+body.modo-celeste svg polygon,
+body.modo-celeste svg ellipse,
+body.modo-cristal svg path,
+body.modo-cristal svg circle:not([fill="#8c6b38"]),
+body.modo-cristal svg line,
+body.modo-cristal svg rect,
+body.modo-cristal svg polyline,
+body.modo-cristal svg polygon,
+body.modo-cristal svg ellipse {
+  stroke: #fff3d6 !important;
+}
+
+body.modo-celeste svg [fill="#8c6b38"],
+body.modo-cristal svg [fill="#8c6b38"] {
+  fill: #fff3d6 !important;
+  stroke: none !important;
+}
+
+body.modo-celeste .timeline-label .event-name,
+body.modo-cristal .timeline-label .event-name {
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.78) !important;
+}
+
+body.modo-celeste .timeline-label .event-time,
+body.modo-cristal .timeline-label .event-time {
+  color: #fff3d6 !important;
+  font-size: 0.80rem !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.75) !important;
+}
+
+body.modo-celeste .timeline-spine::before,
+body.modo-cristal .timeline-spine::before {
+  background-color: rgba(255, 243, 214, 0.65) !important;
+  opacity: 1 !important;
+}
+
+body.modo-celeste .timeline-dot,
+body.modo-cristal .timeline-dot {
+  background-color: #fff3d6 !important;
+  box-shadow: 0 0 10px rgba(255, 243, 214, 0.85) !important;
+}
+
+body.modo-celeste .fecha-subtitulo,
+body.modo-celeste .venue-subtitle,
+body.modo-cristal .fecha-subtitulo,
+body.modo-cristal .venue-subtitle,
+body.modo-celeste .dress-list li[style],
+body.modo-cristal .dress-list li[style] {
+  color: #fff3d6 !important;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.75) !important;
+}
+
+
+/* =========================================================================
+   TARJETA DE PASE PERSONALIZADO EN VISTA DE SOBRE (#cover) Y FORMULARIO RSVP
+   ========================================================================= */
+.guest-pass-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: -6px auto 16px auto;
+  padding: 12px 24px;
+  max-width: 88vw;
+  min-width: 250px;
+  border-radius: 16px;
+  background: linear-gradient(155deg, rgba(16, 30, 48, 0.72) 0%, rgba(10, 20, 34, 0.84) 100%);
+  border: 1px solid rgba(255, 232, 182, 0.55);
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  animation: fadeUp 0.8s ease;
+}
+
+.pass-badge-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255, 243, 214, 0.85);
+  margin-bottom: 4px;
+}
+
+.pass-badge-name {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #fff5dc;
+  line-height: 1.15;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+  margin-bottom: 7px;
+}
+
+.pass-badge-cupos {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #16222f;
+  background: linear-gradient(135deg, #fbe5b4 0%, #d4a853 100%);
+  padding: 4px 14px;
+  border-radius: 999px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+.rsvp-pass-summary {
+  margin: 10px auto 14px auto;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: rgba(255, 243, 214, 0.14);
+  border: 1px solid rgba(255, 232, 182, 0.45);
+  color: #fff5dc;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  max-width: 320px;
+}
+
+body.modo-9-hojas .rsvp-pass-summary {
+  background: rgba(140, 107, 56, 0.12);
+  border-color: rgba(140, 107, 56, 0.45);
+  color: #3b2816;
+}
+
+body.modo-9-hojas #rsvp-personas {
+  background: rgba(255, 255, 255, 0.85) !important;
+  color: #3b2816 !important;
+  border-color: rgba(140, 107, 56, 0.45) !important;
+}

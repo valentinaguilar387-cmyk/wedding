@@ -1,0 +1,162 @@
+[
+  {
+    "id": "CHK-01",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Definir nombres completos de los novios y cómo aparecerán en la portada",
+    "estado": "COMPLETADO",
+    "prioridad": "ALTA",
+    "notas": "Valentín y Liliana confirmados como novios"
+  },
+  {
+    "id": "CHK-02",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Confirmar nombres de los padres de ambos (para la bendición en Hoja 1)",
+    "estado": "COMPLETADO",
+    "prioridad": "ALTA",
+    "notas": "Padres confirmados: Noemy Marín Mejía / Juana Emilia Contreras de Aguilar y Rigoberto Aguilar"
+  },
+  {
+    "id": "CHK-03",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Definir fecha exacta, hora del evento y fecha límite de confirmación (RSVP)",
+    "estado": "COMPLETADO",
+    "prioridad": "ALTA",
+    "notas": "23 de Enero de 2027 a las 4:00 PM"
+  },
+  {
+    "id": "CHK-04",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Definir lugar de Ceremonia y Recepción + enlace de Google Maps",
+    "estado": "COMPLETADO",
+    "prioridad": "ALTA",
+    "notas": "El Morrito Salón de Eventos (Jardín), San Juan Opico"
+  },
+  {
+    "id": "CHK-05",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Seleccionar canción de fondo (MP3) para abrir el sobre digital",
+    "estado": "COMPLETADO",
+    "prioridad": "MEDIA",
+    "notas": "Melendi - La Promesa configurada como audio de fondo"
+  },
+  {
+    "id": "CHK-06",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Enviar las 8 fotografías para la invitación (Portada, Hoja 2, 2 en Hoja 4 y 4 para el carrusel Momentos)",
+    "estado": "COMPLETADO",
+    "prioridad": "ALTA",
+    "notas": "Todas las fotos reales de Valentín y Liliana integradas (portada, hojas y carrusel)"
+  },
+  {
+    "id": "CHK-07",
+    "fase": "1. Datos Base e Invitación Web",
+    "tarea": "Definir Dresscode (Ellas/Ellos), colores reservados y política de regalos/niños",
+    "estado": "COMPLETADO",
+    "prioridad": "MEDIA",
+    "notas": "Dresscode Casual Jardín y colores reservados definidos por Valentín"
+  },
+  {
+    "id": "CHK-08",
+    "fase": "2. Presupuesto y Lugar",
+    "tarea": "Establecer presupuesto total estimado y número máximo de invitados",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-09",
+    "fase": "2. Presupuesto y Lugar",
+    "tarea": "Reservar local / jardín / salón de eventos y firmar contrato",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-10",
+    "fase": "3. Ceremonia y Documentación",
+    "tarea": "Coordinar abogado / notario (Boda Civil) y/o iglesia/pastor (Boda Religiosa)",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-11",
+    "fase": "3. Ceremonia y Documentación",
+    "tarea": "Reunir partidas de nacimiento recientes, DUI de novios y testigos",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-12",
+    "fase": "4. Proveedores Clave",
+    "tarea": "Contratar banquete / catering, pastel y bebidas",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-13",
+    "fase": "4. Proveedores Clave",
+    "tarea": "Contratar fotógrafo y videógrafo (y agendar sesión pre-boda para la invitación)",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-14",
+    "fase": "4. Proveedores Clave",
+    "tarea": "Contratar música / DJ / sonido e iluminación",
+    "estado": "PENDIENTE",
+    "prioridad": "MEDIA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-15",
+    "fase": "4. Proveedores Clave",
+    "tarea": "Definir decoración floral, centros de mesa y montaje",
+    "estado": "PENDIENTE",
+    "prioridad": "MEDIA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-16",
+    "fase": "5. Vestuario y Anillos",
+    "tarea": "Elección y pruebas de vestido de novia y traje del novio",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-17",
+    "fase": "5. Vestuario y Anillos",
+    "tarea": "Compra y grabado de anillos / argollas de matrimonio",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-18",
+    "fase": "6. Lista de Invitados y RSVP",
+    "tarea": "Armar lista maestra de invitados con número de pases y teléfono WhatsApp",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": "Shadow puede recibir la lista por texto, Excel o uno por uno."
+  },
+  {
+    "id": "CHK-19",
+    "fase": "6. Lista de Invitados y RSVP",
+    "tarea": "Enviar invitaciones digitales y dar seguimiento automático de confirmación (RSVP)",
+    "estado": "PENDIENTE",
+    "prioridad": "ALTA",
+    "notas": ""
+  },
+  {
+    "id": "CHK-20",
+    "fase": "6. Lista de Invitados y RSVP",
+    "tarea": "Asignar distribución de mesas según invitados confirmados",
+    "estado": "PENDIENTE",
+    "prioridad": "MEDIA",
+    "notas": ""
+  }
+]

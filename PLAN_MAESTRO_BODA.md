@@ -1,0 +1,111 @@
+# 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
+> *Actualizado automáticamente: 12/11/2026, 4:35:00 p. m.*
+
+## 📊 1. Resumen Ejecutivo
+- **Novios:** Valentín & Liliana
+- **Tipo de Boda:** Por confirmar (Civil / Religiosa / Ambas)
+- **Fecha y Hora:** 2027-01-23 — 4:00 PM
+- **Lugar:** El Morrito Salón de Eventos (Jardín) (Km 27 ½, Carretera a Santa Ana, San Juan Opico, La Libertad)
+- **Fecha límite RSVP:** 25 de Diciembre de 2026
+- **Dresscode:** Dresscode - Casual Jardín
+- **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
+- **Invitados y Confirmaciones (RSVP):** 58 grupos registrados (98 pases asignados) | ✅ **0 pases confirmados** (0 grupos) | ⏳ 58 pendientes | ❌ 0 declinados
+
+## ✅ 2. Checklist de Planificación
+| ID | Fase | Tarea | Estado | Prioridad | Notas |
+|---|---|---|---|---|---|
+| CHK-01 | 1. Datos Base e Invitación Web | Definir nombres completos de los novios y cómo aparecerán en la portada | ✅ COMPLETADO | ALTA | Valentín y Liliana confirmados como novios |
+| CHK-02 | 1. Datos Base e Invitación Web | Confirmar nombres de los padres de ambos (para la bendición en Hoja 1) | ✅ COMPLETADO | ALTA | Padres confirmados: Noemy Marín Mejía / Juana Emilia Contreras de Aguilar y Rigoberto Aguilar |
+| CHK-03 | 1. Datos Base e Invitación Web | Definir fecha exacta, hora del evento y fecha límite de confirmación (RSVP) | ✅ COMPLETADO | ALTA | 23 de Enero de 2027 a las 4:00 PM |
+| CHK-04 | 1. Datos Base e Invitación Web | Definir lugar de Ceremonia y Recepción + enlace de Google Maps | ✅ COMPLETADO | ALTA | El Morrito Salón de Eventos (Jardín), San Juan Opico |
+| CHK-05 | 1. Datos Base e Invitación Web | Seleccionar canción de fondo (MP3) para abrir el sobre digital | ✅ COMPLETADO | MEDIA | Melendi - La Promesa configurada como audio de fondo |
+| CHK-06 | 1. Datos Base e Invitación Web | Enviar las 8 fotografías para la invitación (Portada, Hoja 2, 2 en Hoja 4 y 4 para el carrusel Momentos) | ✅ COMPLETADO | ALTA | Todas las fotos reales de Valentín y Liliana integradas (portada, hojas y carrusel) |
+| CHK-07 | 1. Datos Base e Invitación Web | Definir Dresscode (Ellas/Ellos), colores reservados y política de regalos/niños | ✅ COMPLETADO | MEDIA | Dresscode Casual Jardín y colores reservados definidos por Valentín |
+| CHK-08 | 2. Presupuesto y Lugar | Establecer presupuesto total estimado y número máximo de invitados | ⬜ PENDIENTE | ALTA |  |
+| CHK-09 | 2. Presupuesto y Lugar | Reservar local / jardín / salón de eventos y firmar contrato | ⬜ PENDIENTE | ALTA |  |
+| CHK-10 | 3. Ceremonia y Documentación | Coordinar abogado / notario (Boda Civil) y/o iglesia/pastor (Boda Religiosa) | ⬜ PENDIENTE | ALTA |  |
+| CHK-11 | 3. Ceremonia y Documentación | Reunir partidas de nacimiento recientes, DUI de novios y testigos | ⬜ PENDIENTE | ALTA |  |
+| CHK-12 | 4. Proveedores Clave | Contratar banquete / catering, pastel y bebidas | ⬜ PENDIENTE | ALTA |  |
+| CHK-13 | 4. Proveedores Clave | Contratar fotógrafo y videógrafo (y agendar sesión pre-boda para la invitación) | ⬜ PENDIENTE | ALTA |  |
+| CHK-14 | 4. Proveedores Clave | Contratar música / DJ / sonido e iluminación | ⬜ PENDIENTE | MEDIA |  |
+| CHK-15 | 4. Proveedores Clave | Definir decoración floral, centros de mesa y montaje | ⬜ PENDIENTE | MEDIA |  |
+| CHK-16 | 5. Vestuario y Anillos | Elección y pruebas de vestido de novia y traje del novio | ⬜ PENDIENTE | ALTA |  |
+| CHK-17 | 5. Vestuario y Anillos | Compra y grabado de anillos / argollas de matrimonio | ⬜ PENDIENTE | ALTA |  |
+| CHK-18 | 6. Lista de Invitados y RSVP | Armar lista maestra de invitados con número de pases y teléfono WhatsApp | ⬜ PENDIENTE | ALTA | Shadow puede recibir la lista por texto, Excel o uno por uno. |
+| CHK-19 | 6. Lista de Invitados y RSVP | Enviar invitaciones digitales y dar seguimiento automático de confirmación (RSVP) | ⬜ PENDIENTE | ALTA |  |
+| CHK-20 | 6. Lista de Invitados y RSVP | Asignar distribución de mesas según invitados confirmados | ⬜ PENDIENTE | MEDIA |  |
+
+## 🕒 3. Programa Minuto a Minuto (Día de la Boda)
+| ID | Hora | Actividad | Responsable | Notas |
+|---|---|---|---|---|
+| PRG-01 | **15:30** | Recepción y bienvenida de invitados | Hostess / Familia | Música instrumental de bienvenida |
+| PRG-02 | **16:00** | Inicio de Ceremonia (Cortejo y entrada de la novia) | Oficiante / Coordinador | Puntualidad |
+| PRG-03 | **16:45** | Firma de acta, votos, intercambio de anillos y salida triunfal | Novios y Testigos | Foto grupal al finalizar |
+| PRG-04 | **17:00** | Cóctel de bienvenida y sesión de fotos de los novios | Catering / Fotógrafo | Bocadillos y bebidas refrescantes |
+| PRG-05 | **18:00** | Entrada de los esposos a la recepción y primer baile | DJ / Maestro de ceremonias | Canción especial de los novios |
+| PRG-06 | **18:20** | Palabras de agradecimiento y brindis familiar | Padres / Padrinos / Novios |  |
+| PRG-07 | **18:45** | Cena principal | Banquete / Catering | Música suave de sobremesa |
+| PRG-08 | **20:00** | Partido de pastel, ramo y apertura de pista de baile | DJ / Novios |  |
+| PRG-09 | **22:30** | Cierre del evento y despedida de los novios | Coordinación |  |
+
+## 📋 4. Lista de Invitados y Confirmaciones (RSVP)
+| ID | Nombre / Familia | Teléfono | Lado | Mesa | Pases Asignados | Pases Confirmados | Estado RSVP | Mensaje / Notas |
+|---|---|---|---|---|---|---|---|---|
+| INV-001 | Emilia Contreras | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-002 | Rigoberto Aguilar | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-003 | Carlos Aguilar | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-004 | Esperanza Contreras | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-005 | Manuel Campos | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-006 | Daniel Quintanilla | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-007 | Eduardo Tobar | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-008 | Doris Cea | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-009 | Luis Valencia | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-010 | Guillermo Marroquin | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-011 | Aaron Marroquin | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-012 | Kevin Telule | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-013 | Oscar Melgar | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-014 | Cristian Argueta | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-015 | Claudia Alfaro | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-016 | Jenifer Avalos | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-017 | Danilo Maldonado | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-018 | Edilberto Navarrete | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-019 | Walter Antonio | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-020 | Dennis Wilber | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-021 | Henry Gutierrez | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-022 | Jaime Figueroa | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-023 | Diego Muñoz | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-024 | Luis Rodriguez | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-025 | Anderson Rodriguez | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-026 | Antonia Rivera | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-027 | Armando Marin | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-028 | Alcides Franco | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-029 | Ester Marin | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-030 | Elmer Alvarado | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-031 | Brandon Moran | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-032 | Victor Mejia | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-033 | Walter Anaya | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-034 | Vanessa Garcia | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-035 | Adriana Garay | - | Novia (Liliana) | - | 4 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-036 | Rony Santos | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-037 | Abigail Aguilar | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-038 | Isaura Sanchez | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-039 | Brenda Ponce | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-040 | Wendy Gonzalez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-041 | Arely Menjivar | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-042 | Ariana Escobar | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-043 | Jose Martinez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-044 | Luis Rodriguez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-045 | David Merino | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-046 | Edwin Barrera | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-047 | Brayan Siguenza | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-048 | Josefina Villatoro | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-049 | Gerardo Alvarado | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-050 | Ruth Hernandez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-051 | Karen Santos | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-052 | Noemy Marin | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-053 | Walter De Paz | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-054 | Walter Marin | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-055 | Blanca Chicas | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
+| INV-056 | Gloria Alfaro | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
+| INV-057 | Lidia Mejia | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
+| INV-058 | Franklin Marin | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
