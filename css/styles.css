@@ -757,7 +757,7 @@ body.modo-cristal #story {
 body.modo-celeste #story {
   max-width: 420px !important;
   width: 92% !important;
-  margin: 22px auto 90px auto !important;
+  margin: 22px auto 38px auto !important;
   padding: 0 0 42px 0 !important;
   /* Cristal Zafiro: alta transparencia sobre las nubes del cielo + reflejo especular */
   background: linear-gradient(
@@ -1096,14 +1096,24 @@ body.modo-celeste .itinerary-event {
   padding: 50px 22px 42px !important;
 }
 
-.programa-title {
+#story h2,
+.programa-title,
+.dresscode-title {
   font-family: 'Great Vibes', 'Tangerine', cursive !important;
-  font-size: 2.85rem !important;
+  font-size: clamp(2.55rem, 8.2vw, 2.85rem) !important;
   font-weight: 400 !important;
   color: #8c6b38 !important;
   margin: 0 0 12px 0 !important;
   line-height: 1.15 !important;
+  letter-spacing: 0.5px !important;
   text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9) !important;
+}
+
+body.modo-celeste #story h2,
+body.modo-celeste .programa-title,
+body.modo-celeste .dresscode-title {
+  color: #fff3d6 !important;
+  text-shadow: 0 2px 12px rgba(8, 30, 62, 0.82), 0 1px 3px rgba(6, 20, 44, 0.75) !important;
 }
 
 .programa-timeline {

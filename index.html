@@ -15,11 +15,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Tangerine:wght@400;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=zafiro_esmeralda_v14">
+  <link rel="stylesheet" href="css/styles.css?v=zafiro_esmeralda_v15">
 </head>
 <body class="modo-celeste">
   
-  <!-- FONDO FIJO (BOSQUE) -->
+  <!-- FONDO FIJO (ZAFIRO CIELO) -->
   <div class="fondo-bosque-fijo"></div>
 
   <!-- PANTALLA DE INICIO (SOBRE) -->
@@ -33,42 +33,6 @@
     <img src="img/sobre-valentin.jpg?v=render_vl_clean" id="envelope" alt="Abrir Invitación">
     <p class="tap">TOCA EL SOBRE</p>
   </div>
-
-
-  <!-- SELECTOR DE PRUEBA DE DISEÑO (SOLO PRUEBA EN VIVO) -->
-  <div id="layout-test-bar" style="position:fixed; bottom:14px; left:50%; transform:translateX(-50%); z-index:9999; background:rgba(10,18,28,0.85); border:1px solid rgba(255,255,255,0.32); border-radius:999px; padding:5px 8px; display:flex; gap:6px; box-shadow:0 10px 28px rgba(0,0,0,0.55); backdrop-filter:blur(12px);">
-    <button type="button" onclick="setWeddingMode('modo-celeste')" id="btn-modo-1" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:linear-gradient(135deg,#7cc4f8,#3b82c4); color:#fff; font-weight:700; border:none; cursor:pointer;">💎 Zafiro (Cielo)</button>
-    <button type="button" onclick="setWeddingMode('modo-cristal')" id="btn-modo-2" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:transparent; color:#f3dfb5; font-weight:600; border:1px solid rgba(255,255,255,0.22); cursor:pointer;">💚 Esmeralda (Bosque)</button>
-    <button type="button" onclick="setWeddingMode('modo-9-hojas')" id="btn-modo-3" style="margin:0; padding:6px 12px; font-size:0.72rem; border-radius:999px; background:transparent; color:#f3dfb5; font-weight:600; border:1px solid rgba(255,255,255,0.22); cursor:pointer;">📜 9 Hojas</button>
-  </div>
-  <script>
-    function setWeddingMode(mode) {
-      document.body.classList.remove('modo-celeste', 'modo-sin-hojas', 'modo-cristal', 'modo-9-hojas');
-      document.body.classList.add(mode);
-      const map = { 'modo-celeste': 'btn-modo-1', 'modo-cristal': 'btn-modo-2', 'modo-9-hojas': 'btn-modo-3' };
-      ['btn-modo-1', 'btn-modo-2', 'btn-modo-3'].forEach(id => {
-        const b = document.getElementById(id);
-        if (!b) return;
-        if (id === map[mode]) {
-          if (mode === 'modo-celeste') {
-            b.style.background = 'linear-gradient(135deg,#7cc4f8,#3b82c4)';
-            b.style.color = '#fff';
-          } else if (mode === 'modo-cristal') {
-            b.style.background = 'linear-gradient(135deg,#34b37c,#16794d)';
-            b.style.color = '#fff';
-          } else {
-            b.style.background = '#c59b40';
-            b.style.color = '#111';
-          }
-          b.style.border = 'none';
-        } else {
-          b.style.background = 'transparent';
-          b.style.color = '#f3dfb5';
-          b.style.border = '1px solid rgba(255,255,255,0.22)';
-        }
-      });
-    }
-  </script>
 
   <!-- HISTORIA (CONTENIDO PRINCIPAL) -->
   <div id="story">
@@ -152,9 +116,9 @@
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
           <circle cx="12" cy="10" r="3"/>
         </svg>
-        <h2>Ubicación</h2>
+        <h2>Ceremonia & Recepción</h2>
         <div class="details-block">
-          <p class="venue-subtitle">Ceremonia & Recepción</p>
+          <p class="venue-subtitle">Ubicación</p>
           <p style="margin-bottom: 8px;">
             <strong>El Morrito Salón de Eventos</strong><br>
             Área de Jardín · 4:00 PM<br>
@@ -179,7 +143,25 @@
         <h2 class="programa-title">Programa de la Boda</h2>
         
         <div class="programa-timeline">
-          <!-- 1. CEREMONIA -->
+          <!-- 1. RECEPCIÓN -->
+          <div class="timeline-row">
+            <div class="timeline-icon">
+              <svg viewBox="0 0 48 48" class="icon-svg">
+                <path d="M12 38 L12 22 C12 14, 24 9, 24 9 C24 9, 36 14, 36 22 L36 38" fill="none" stroke="#8c6b38" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="9" y1="38" x2="39" y2="38" stroke="#8c6b38" stroke-width="2" stroke-linecap="round"/>
+                <path d="M24 21 C22 18.5, 18.5 19, 18.5 22 C18.5 25, 24 28.5, 24 28.5 C24 28.5, 29.5 25, 29.5 22 C29.5 19, 26 18.5, 24 21 Z" fill="none" stroke="#8c6b38" stroke-width="1.8" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="timeline-spine">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-label">
+              <span class="event-name">RECEPCIÓN</span>
+              <span class="event-time">3:45 PM</span>
+            </div>
+          </div>
+
+          <!-- 2. CEREMONIA -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -196,11 +178,10 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">CEREMONIA</span>
-              <span class="event-time">4:00 PM</span>
             </div>
           </div>
 
-          <!-- 2. CÓCTEL -->
+          <!-- 3. CÓCTEL -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -216,11 +197,10 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">CÓCTEL</span>
-              <span class="event-time">5:00 PM</span>
             </div>
           </div>
 
-          <!-- 3. BAILE DE LOS NOVIOS -->
+          <!-- 4. BAILE DE LOS NOVIOS -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -236,11 +216,10 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">BAILE DE LOS NOVIOS</span>
-              <span class="event-time">6:00 PM</span>
             </div>
           </div>
 
-          <!-- 4. CENA -->
+          <!-- 5. CENA -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -255,11 +234,10 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">CENA</span>
-              <span class="event-time">6:45 PM</span>
             </div>
           </div>
 
-          <!-- 5. PASTEL -->
+          <!-- 6. PASTEL -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -276,11 +254,10 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">PASTEL</span>
-              <span class="event-time">8:00 PM</span>
             </div>
           </div>
 
-          <!-- 6. FIESTA -->
+          <!-- 7. FIESTA -->
           <div class="timeline-row">
             <div class="timeline-icon">
               <svg viewBox="0 0 48 48" class="icon-svg">
@@ -297,7 +274,6 @@
             </div>
             <div class="timeline-label">
               <span class="event-name">FIESTA</span>
-              <span class="event-time">8:30 PM</span>
             </div>
           </div>
         </div>
