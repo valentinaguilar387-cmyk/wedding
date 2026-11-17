@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Wedding Planner & RSVP — Panel de Control</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #121316;
       --card: #1c1e24;
+      --card-hover: #232730;
       --border: #2c303a;
       --accent: #d4a359;
       --accent-soft: rgba(212, 163, 89, 0.15);
       --green: #2ecc71;
+      --green-soft: rgba(46, 204, 113, 0.18);
       --yellow: #f1c40f;
       --red: #e74c3c;
       --text: #f3f4f6;
@@ -23,103 +25,271 @@
       font-family: 'Montserrat', sans-serif;
       background: var(--bg);
       color: var(--text);
-      padding: 20px;
-      max-width: 1100px;
+      padding: 16px;
+      max-width: 1150px;
       margin: 0 auto;
+      line-height: 1.45;
     }
     header {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      gap: 15px;
-      padding-bottom: 18px;
+      gap: 14px;
+      padding-bottom: 16px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 22px;
+      margin-bottom: 18px;
     }
-    h1 { font-size: 1.4rem; color: var(--accent); }
-    .sub { font-size: 0.85rem; color: var(--muted); margin-top: 4px; }
+    h1 { font-size: 1.35rem; color: var(--accent); }
+    .sub { font-size: 0.82rem; color: var(--muted); margin-top: 4px; }
     .btn {
       background: var(--accent);
       color: #111;
       font-weight: 600;
-      padding: 9px 16px;
+      padding: 8px 14px;
       border-radius: 8px;
       text-decoration: none;
       border: none;
       cursor: pointer;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 6px;
+      transition: all 0.2s ease;
     }
+    .btn:active { transform: scale(0.97); }
     .btn-outline {
       background: transparent;
       color: var(--accent);
       border: 1px solid var(--accent);
     }
+    .btn-green {
+      background: var(--green);
+      color: #0b1a0e;
+      font-weight: 700;
+    }
+    .btn-sm {
+      padding: 5px 9px;
+      font-size: 0.74rem;
+      border-radius: 6px;
+    }
     .kpis {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 14px;
-      margin-bottom: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
     }
     .kpi {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 16px;
+      padding: 14px;
     }
-    .kpi .label { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
-    .kpi .val { font-size: 1.8rem; font-weight: 700; margin-top: 6px; color: var(--accent); }
-    .kpi .meta { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+    .kpi .label { font-size: 0.74rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi .val { font-size: 1.6rem; font-weight: 700; margin-top: 4px; color: var(--accent); }
+    .kpi .meta { font-size: 0.74rem; color: var(--muted); margin-top: 4px; }
 
     .tabs {
       display: flex;
-      gap: 10px;
-      margin-bottom: 18px;
-      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
     }
     .tab {
       background: var(--card);
       color: var(--muted);
       border: 1px solid var(--border);
-      padding: 10px 18px;
+      padding: 9px 15px;
       border-radius: 8px;
       cursor: pointer;
       font-weight: 600;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
     .tab.active {
       background: var(--accent-soft);
       color: var(--accent);
       border-color: var(--accent);
     }
-    .section { display: none; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+    .section { display: none; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
     .section.active { display: block; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    th, td { text-align: left; padding: 11px 10px; border-bottom: 1px solid var(--border); }
-    th { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; }
-    .badge {
-      padding: 4px 9px;
+
+    /* Barra de filtros y búsqueda */
+    .controls-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
+    .search-box {
+      flex: 1 1 240px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      background: #121316;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 9px 12px 9px 34px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-family: inherit;
+      outline: none;
+    }
+    .search-input:focus { border-color: var(--accent); }
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .filter-pills {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .filter-pill {
+      background: #121316;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 5px 10px;
       border-radius: 20px;
+      font-size: 0.74rem;
+      cursor: pointer;
+    }
+    .filter-pill.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Guardar teléfonos y aviso */
+    .phone-sync-banner {
+      display: none;
+      background: rgba(212, 163, 89, 0.12);
+      border: 1px solid var(--accent);
+      border-radius: 10px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 0.82rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* Tabla clásica para escritorio */
+    .table-container { width: 100%; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    th, td { text-align: left; padding: 10px 10px; border-bottom: 1px solid var(--border); }
+    th { color: var(--muted); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Input de teléfono */
+    .phone-input {
+      background: #121316;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 8px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      width: 125px;
+      font-family: inherit;
+    }
+    .phone-input:focus { border-color: var(--accent); outline: none; }
+
+    .badge {
+      padding: 3px 8px;
+      border-radius: 16px;
       font-size: 0.72rem;
       font-weight: 700;
       display: inline-block;
+      white-space: nowrap;
     }
     .b-CONFIRMADO, .b-COMPLETADO { background: rgba(46, 204, 113, 0.2); color: var(--green); }
     .b-PENDIENTE, .b-INVITADO, .b-EN_PROCESO { background: rgba(241, 196, 15, 0.2); color: var(--yellow); }
     .b-DECLINADO { background: rgba(231, 76, 60, 0.2); color: var(--red); }
+
+    /* TARJETAS MÓVILES */
+    .mobile-cards { display: none; flex-direction: column; gap: 12px; }
+    .guest-card {
+      background: #17191f;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 13px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      transition: border-color 0.2s;
+    }
+    .guest-card:hover { border-color: #3f4553; }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .card-name { font-size: 0.95rem; font-weight: 700; color: #fff; }
+    .card-meta { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+    .card-badges { display: flex; gap: 5px; flex-wrap: wrap; }
+    .card-phone-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #111216;
+      padding: 7px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+    .card-phone-row label { font-size: 0.75rem; color: var(--muted); flex-shrink: 0; }
+    .card-phone-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 0.85rem;
+      outline: none;
+      font-family: inherit;
+    }
+    .card-phone-input::placeholder { color: #555c68; }
+    .card-actions {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 2px;
+    }
+    .card-actions .btn { flex: 1 1 auto; text-align: center; }
+
+    /* RESPONSIVE BREAKPOINT PARA CELULARES */
+    @media (max-width: 768px) {
+      body { padding: 12px; }
+      header { flex-direction: column; align-items: stretch; text-align: center; }
+      header div:last-child { justify-content: center; }
+      .kpis { grid-template-columns: 1fr 1fr; }
+      .table-container { display: none; }
+      .mobile-cards { display: flex; }
+      .section { padding: 12px; }
+    }
   </style>
 </head>
 <body>
   <header>
     <div>
       <h1 id="title-novios">💍 Wedding Planner — Panel de Control</h1>
-      <div class="sub" id="subtitle-info">Alojado en GitHub Pages · Base de datos en <code>data/invitados.json</code></div>
+      <div class="sub" id="subtitle-info">Alojado en GitHub Pages · Optimizado para móviles y WhatsApp</div>
     </div>
-    <div style="display:flex; gap:10px;">
-      <a href="./" target="_blank" class="btn">💌 Ver Tarjeta de Invitación</a>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a href="./" target="_blank" class="btn">💌 Ver Invitación</a>
       <button class="btn btn-outline" onclick="loadData()">🔄 Actualizar</button>
     </div>
   </header>
@@ -136,25 +306,57 @@
       <div class="meta" id="kpi-grupos-meta">0 pendientes · 0 declinados</div>
     </div>
     <div class="kpi">
+      <div class="label">Con Teléfono</div>
+      <div class="val" id="kpi-tel">0</div>
+      <div class="meta" id="kpi-tel-meta">0 por contactar</div>
+    </div>
+    <div class="kpi">
       <div class="label">Avance Checklist</div>
       <div class="val" id="kpi-chk">0%</div>
       <div class="meta" id="kpi-chk-meta">0 de 0 tareas listas</div>
     </div>
-    <div class="kpi">
-      <div class="label">Fecha & Lugar</div>
-      <div class="val" style="font-size:1.1rem; margin-top:10px;" id="kpi-fecha">Por confirmar</div>
-      <div class="meta" id="kpi-lugar">Por confirmar</div>
-    </div>
   </div>
 
   <div class="tabs">
-    <button class="tab active" onclick="openTab('invitados', this)">📋 Lista de Invitados & RSVP</button>
+    <button class="tab active" onclick="openTab('invitados', this)">📋 Lista de Invitados (<span id="tab-count-inv">0</span>)</button>
     <button class="tab" onclick="openTab('checklist', this)">✅ Checklist de Boda</button>
     <button class="tab" onclick="openTab('programa', this)">🕒 Programa Minuto a Minuto</button>
   </div>
 
+  <!-- TAB INVITADOS -->
   <div id="tab-invitados" class="section active">
-    <div style="overflow-x:auto;">
+    <!-- Barra de búsqueda y filtros -->
+    <div class="controls-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar por nombre, código o teléfono..." oninput="filterGuests()">
+      </div>
+      <div class="filter-pills">
+        <button class="filter-pill active" data-filter="TODOS" onclick="setFilter('TODOS', this)">Todos</button>
+        <button class="filter-pill" data-filter="NOVIO" onclick="setFilter('NOVIO', this)">Novio</button>
+        <button class="filter-pill" data-filter="NOVIA" onclick="setFilter('NOVIA', this)">Novia</button>
+        <button class="filter-pill" data-filter="CONFIRMADO" onclick="setFilter('CONFIRMADO', this)">Confirmados</button>
+        <button class="filter-pill" data-filter="PENDIENTE" onclick="setFilter('PENDIENTE', this)">Pendientes</button>
+        <button class="filter-pill" data-filter="SIN_TEL" onclick="setFilter('SIN_TEL', this)">Sin Teléfono</button>
+      </div>
+    </div>
+
+    <!-- Banner de sincronización de teléfonos editados -->
+    <div id="phone-sync-banner" class="phone-sync-banner">
+      <div>
+        <strong>📱 Teléfonos modificados:</strong> <span id="sync-count">0</span> números guardados localmente en este dispositivo.
+      </div>
+      <div style="display:flex; gap:6px;">
+        <button class="btn btn-sm btn-outline" onclick="copyUpdatedPhonesSummary(this)">📋 Copiar para el Agente</button>
+        <button class="btn btn-sm" onclick="exportUpdatedJson()">💾 Descargar JSON</button>
+      </div>
+    </div>
+
+    <!-- Vista de tarjetas móviles (pantallas pequeñas) -->
+    <div id="mobile-cards-list" class="mobile-cards"></div>
+
+    <!-- Vista de tabla clásica (pantallas medianas y de escritorio) -->
+    <div class="table-container">
       <table>
         <thead>
           <tr>
@@ -162,10 +364,10 @@
             <th>Nombre / Familia</th>
             <th>Lado</th>
             <th>Cupos</th>
-            <th>Confirmados</th>
+            <th>Teléfono (WhatsApp)</th>
             <th>Estado RSVP</th>
-            <th>Link Personalizado por Pase</th>
-            <th>Mensaje / Notas</th>
+            <th>Acciones</th>
+            <th>Notas</th>
           </tr>
         </thead>
         <tbody id="tbody-invitados"></tbody>
@@ -173,8 +375,9 @@
     </div>
   </div>
 
+  <!-- TAB CHECKLIST -->
   <div id="tab-checklist" class="section">
-    <div style="overflow-x:auto;">
+    <div class="table-container" style="display:block;">
       <table>
         <thead>
           <tr>
@@ -191,8 +394,9 @@
     </div>
   </div>
 
+  <!-- TAB PROGRAMA -->
   <div id="tab-programa" class="section">
-    <div style="overflow-x:auto;">
+    <div class="table-container" style="display:block;">
       <table>
         <thead>
           <tr>
@@ -209,11 +413,189 @@
   </div>
 
   <script>
+    let rawInvitados = [];
+    let currentFilter = 'TODOS';
+    const LOCAL_PHONES_KEY = 'wedding_saved_phones_v1';
+
+    function getLocalPhones() {
+      try {
+        return JSON.parse(localStorage.getItem(LOCAL_PHONES_KEY) || '{}');
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function saveLocalPhone(code, phone) {
+      const phones = getLocalPhones();
+      const cleaned = phone.replace(/[^\d+]/g, '').trim();
+      if (!cleaned) {
+        delete phones[code];
+      } else {
+        phones[code] = cleaned;
+      }
+      localStorage.setItem(LOCAL_PHONES_KEY, JSON.stringify(phones));
+      updateSyncBanner();
+    }
+
+    function updateSyncBanner() {
+      const phones = getLocalPhones();
+      const count = Object.keys(phones).length;
+      const banner = document.getElementById('phone-sync-banner');
+      const counter = document.getElementById('sync-count');
+      if (count > 0) {
+        banner.style.display = 'flex';
+        counter.textContent = count;
+      } else {
+        banner.style.display = 'none';
+      }
+    }
+
     function openTab(name, btn) {
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.getElementById('tab-' + name).classList.add('active');
       btn.classList.add('active');
+    }
+
+    function setFilter(filter, btn) {
+      currentFilter = filter;
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      filterGuests();
+    }
+
+    function sanitizeWaPhone(raw) {
+      if (!raw) return '';
+      let num = String(raw).replace(/\D/g, '');
+      if (num.length === 8) {
+        num = '503' + num; // Formato El Salvador por defecto
+      }
+      return num;
+    }
+
+    function buildWaText(nombre, cupos, url) {
+      return `¡Hola *${nombre}*! 💍✨\n\nCon mucha alegría queremos compartirte nuestra invitación de boda (*Liliana & Valentín* — Sábado 23 de Enero de 2027).\n\n🎟️ *Pase reservado:* ${cupos} ${cupos === 1 ? 'cupo' : 'cupos'}\n💌 *Abre tu invitación personalizada aquí:*\n${url}\n\nPor favor confirma tu asistencia dentro de la invitación antes del 25 de Diciembre de 2026. ¡Esperamos celebrar contigo!`;
+    }
+
+    function directWhatsApp(phone, nombre, cupos, url) {
+      const waNumber = sanitizeWaPhone(phone);
+      if (!waNumber) {
+        alert('Por favor escribe primero el número de teléfono del invitado.');
+        return;
+      }
+      const text = encodeURIComponent(buildWaText(nombre, cupos, url));
+      window.open(`https://wa.me/${waNumber}?text=${text}`, '_blank');
+    }
+
+    function renderGuests(list) {
+      const localPhones = getLocalPhones();
+      const tbInv = document.getElementById('tbody-invitados');
+      const mobileList = document.getElementById('mobile-cards-list');
+
+      if (!list || list.length === 0) {
+        tbInv.innerHTML = '<tr><td colspan="8" style="text-align:center;color:#9ca3af;padding:24px;">No se encontraron invitados con este filtro.</td></tr>';
+        mobileList.innerHTML = '<div style="text-align:center;color:#9ca3af;padding:24px;">No se encontraron invitados con este filtro.</div>';
+        return;
+      }
+
+      // 1. Render Desktop Table
+      tbInv.innerHTML = list.map(g => {
+        const code = g.codigo || g.id;
+        const cupos = g.pases_asignados || 1;
+        const ghLink = `https://valentinaguilar387-cmyk.github.io/wedding/?pase=${code}`;
+        const phone = localPhones[code] || g.telefono || '';
+        const safeName = (g.nombre || '').replace(/'/g, "\\'");
+        const waPhone = sanitizeWaPhone(phone);
+
+        return `
+          <tr>
+            <td><strong style="color:var(--accent);">${code}</strong></td>
+            <td><strong>${g.nombre}</strong></td>
+            <td><span style="font-size:0.75rem; color:var(--muted);">${g.lado || '-'}</span></td>
+            <td><span class="badge" style="background:rgba(212,163,89,0.2);color:var(--accent);">${cupos}</span></td>
+            <td>
+              <div style="display:flex; align-items:center; gap:5px;">
+                <input type="tel" class="phone-input" value="${phone}" placeholder="+503..." 
+                  onchange="saveLocalPhone('${code}', this.value); filterGuests();" />
+                ${waPhone ? `<button class="btn btn-sm btn-green" title="Enviar mensaje de WhatsApp" onclick="directWhatsApp('${waPhone}', '${safeName}', ${cupos}, '${ghLink}')">💬</button>` : ''}
+              </div>
+            </td>
+            <td><span class="badge b-${g.estado}">${g.estado}</span></td>
+            <td style="white-space:nowrap;">
+              <button class="btn btn-outline btn-sm" onclick="copyLink('${ghLink}', this)">🔗 Link</button>
+              <button class="btn btn-outline btn-sm" style="margin-left:3px;" onclick="copyWaMsg('${safeName}', ${cupos}, '${ghLink}', this)">📋 WA</button>
+              <a href="./?pase=${code}" target="_blank" class="btn btn-outline btn-sm" style="margin-left:3px;">👁️</a>
+            </td>
+            <td style="font-size:0.75rem; color:var(--muted);">${g.mensaje || g.notas || ''}</td>
+          </tr>
+        `;
+      }).join('');
+
+      // 2. Render Mobile Cards
+      mobileList.innerHTML = list.map(g => {
+        const code = g.codigo || g.id;
+        const cupos = g.pases_asignados || 1;
+        const ghLink = `https://valentinaguilar387-cmyk.github.io/wedding/?pase=${code}`;
+        const phone = localPhones[code] || g.telefono || '';
+        const safeName = (g.nombre || '').replace(/'/g, "\\'");
+        const waPhone = sanitizeWaPhone(phone);
+
+        return `
+          <div class="guest-card">
+            <div class="card-top">
+              <div>
+                <span style="color:var(--accent); font-weight:700; font-size:0.8rem; margin-right:4px;">${code}</span>
+                <span class="card-name">${g.nombre}</span>
+                <div class="card-meta">${g.lado || 'Invitado'} ${g.mesa ? '· ' + g.mesa : ''}</div>
+              </div>
+              <div class="card-badges">
+                <span class="badge" style="background:rgba(212,163,89,0.2);color:var(--accent);">${cupos} ${cupos === 1 ? 'cupo' : 'cupos'}</span>
+                <span class="badge b-${g.estado}">${g.estado}</span>
+              </div>
+            </div>
+
+            <!-- Fila para ingresar o editar teléfono -->
+            <div class="card-phone-row">
+              <label>📞 Teléfono:</label>
+              <input type="tel" class="card-phone-input" value="${phone}" placeholder="Ingresar número (+503...)" 
+                onchange="saveLocalPhone('${code}', this.value); filterGuests();" />
+              ${waPhone ? `<button class="btn btn-sm btn-green" onclick="directWhatsApp('${waPhone}', '${safeName}', ${cupos}, '${ghLink}')">💬 Chat</button>` : ''}
+            </div>
+
+            <!-- Botones de acción móvil -->
+            <div class="card-actions">
+              <button class="btn btn-outline btn-sm" onclick="copyLink('${ghLink}', this)">🔗 Copiar Link</button>
+              <button class="btn btn-outline btn-sm" onclick="copyWaMsg('${safeName}', ${cupos}, '${ghLink}', this)">📋 Copiar Texto</button>
+              <a href="./?pase=${code}" target="_blank" class="btn btn-outline btn-sm">👁️ Ver Sobre</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function filterGuests() {
+      const q = (document.getElementById('search-input').value || '').toLowerCase().trim();
+      const localPhones = getLocalPhones();
+
+      const filtered = rawInvitados.filter(g => {
+        const code = (g.codigo || g.id || '').toLowerCase();
+        const name = (g.nombre || '').toLowerCase();
+        const phone = (localPhones[g.codigo || g.id] || g.telefono || '').toLowerCase();
+
+        // Filtro de texto
+        const matchText = !q || name.includes(q) || code.includes(q) || phone.includes(q);
+        if (!matchText) return false;
+
+        // Filtro de píldoras
+        if (currentFilter === 'NOVIO') return (g.lado || '').includes('Novio');
+        if (currentFilter === 'NOVIA') return (g.lado || '').includes('Novia');
+        if (currentFilter === 'CONFIRMADO') return g.estado === 'CONFIRMADO';
+        if (currentFilter === 'PENDIENTE') return g.estado === 'PENDIENTE' || !g.estado;
+        if (currentFilter === 'SIN_TEL') return !phone;
+        return true;
+      });
+
+      renderGuests(filtered);
     }
 
     async function loadData() {
@@ -225,14 +607,18 @@
           fetch('data/invitados.json?t=' + Date.now()).then(r => r.json())
         ]);
 
-        document.getElementById('title-novios').textContent = `💍 Boda: ${cfgRes.novio || 'Valentín'} & ${cfgRes.novia || 'Por confirmar'}`;
-        document.getElementById('kpi-fecha').textContent = cfgRes.fecha_boda || 'Por confirmar';
-        document.getElementById('kpi-lugar').textContent = cfgRes.lugar_nombre || 'Por confirmar';
+        document.getElementById('title-novios').textContent = `💍 Boda: ${cfgRes.novio || 'Valentín'} & ${cfgRes.novia || 'Liliana'}`;
 
-        const invitados = invRes.invitados || [];
-        let asig = 0, conf = 0, gConf = 0, gPend = 0, gDecl = 0;
-        invitados.forEach(g => {
+        rawInvitados = invRes.invitados || [];
+        document.getElementById('tab-count-inv').textContent = rawInvitados.length;
+
+        const localPhones = getLocalPhones();
+        let asig = 0, conf = 0, gConf = 0, gPend = 0, gDecl = 0, conTel = 0;
+        rawInvitados.forEach(g => {
           asig += Number(g.pases_asignados || 1);
+          const hasPhone = (localPhones[g.codigo || g.id] || g.telefono || '').trim();
+          if (hasPhone) conTel++;
+
           if (g.estado === 'CONFIRMADO') {
             gConf++;
             conf += Number(g.pases_confirmados || g.pases_asignados || 1);
@@ -244,40 +630,19 @@
         });
 
         document.getElementById('kpi-confirmados').textContent = conf;
-        document.getElementById('kpi-confirmados-meta').textContent = `de ${asig} pases asignados (${gConf} grupos)`;
-        document.getElementById('kpi-grupos').textContent = invitados.length;
+        document.getElementById('kpi-confirmados-meta').textContent = `de ${asig} pases (${gConf} grupos)`;
+        document.getElementById('kpi-grupos').textContent = rawInvitados.length;
         document.getElementById('kpi-grupos-meta').textContent = `${gPend} pendientes · ${gDecl} declinados`;
+        document.getElementById('kpi-tel').textContent = conTel;
+        document.getElementById('kpi-tel-meta').textContent = `${rawInvitados.length - conTel} pendientes de teléfono`;
 
         const chkDone = chkRes.filter(c => c.estado === 'COMPLETADO').length;
         const pct = chkRes.length ? Math.round((chkDone / chkRes.length) * 100) : 0;
         document.getElementById('kpi-chk').textContent = pct + '%';
-        document.getElementById('kpi-chk-meta').textContent = `${chkDone} de ${chkRes.length} tareas completadas`;
+        document.getElementById('kpi-chk-meta').textContent = `${chkDone} de ${chkRes.length} tareas`;
 
-        const tbInv = document.getElementById('tbody-invitados');
-        tbInv.innerHTML = invitados.length === 0
-          ? '<tr><td colspan="8" style="text-align:center;color:#9ca3af;padding:24px;">Aún no hay invitados cargados. Valentín puede enviarlos por WhatsApp a Shadow.</td></tr>'
-          : invitados.map(g => {
-              const code = g.codigo || g.id;
-              const cupos = g.pases_asignados || 1;
-              const ghLink = `https://valentinaguilar387-cmyk.github.io/wedding/?pase=${code}`;
-              const safeName = (g.nombre || '').replace(/'/g, "\\'");
-              return `
-                <tr>
-                  <td><strong style="color:var(--accent);">${code}</strong></td>
-                  <td><strong>${g.nombre}</strong></td>
-                  <td>${g.lado || '-'}</td>
-                  <td><span class="badge" style="background:rgba(212,163,89,0.2);color:var(--accent);">${cupos} ${cupos === 1 ? 'cupo' : 'cupos'}</span></td>
-                  <td><strong>${g.pases_confirmados || 0}</strong></td>
-                  <td><span class="badge b-${g.estado}">${g.estado}</span></td>
-                  <td style="white-space:nowrap;">
-                    <button class="btn btn-outline" style="padding:5px 9px;font-size:0.74rem;" onclick="copyLink('${ghLink}', this)">🔗 Copiar Link</button>
-                    <button class="btn btn-outline" style="padding:5px 9px;font-size:0.74rem;margin-left:4px;" onclick="copyWaMsg('${safeName}', ${cupos}, '${ghLink}', this)">💬 Copiar WA</button>
-                    <a href="./?pase=${code}" target="_blank" class="btn btn-outline" style="padding:5px 9px;font-size:0.74rem;margin-left:4px;">👁️ Sobre</a>
-                  </td>
-                  <td>${g.mensaje || g.notas || ''}</td>
-                </tr>
-              `;
-            }).join('');
+        updateSyncBanner();
+        filterGuests();
 
         document.getElementById('tbody-checklist').innerHTML = chkRes.map(c => `
           <tr>
@@ -303,21 +668,55 @@
         console.error(e);
       }
     }
+
     function copyLink(url, btn) {
       navigator.clipboard.writeText(url).then(() => {
         const old = btn.textContent;
-        btn.textContent = '✅ ¡Copiado!';
+        btn.textContent = '✅ Copiado';
         setTimeout(() => btn.textContent = old, 1800);
       });
     }
 
     function copyWaMsg(nombre, cupos, url, btn) {
-      const msg = `¡Hola *${nombre}*! 💍✨\n\nCon mucha alegría queremos compartirte nuestra invitación de boda (*Liliana & Valentín* — Sábado 23 de Enero de 2027).\n\n🎟️ *Pase reservado por:* ${cupos} ${cupos === 1 ? 'cupo' : 'cupos'}\n💌 *Abre tu invitación personalizada aquí:*\n${url}\n\nPor favor confirma tu asistencia dentro de la invitación antes del 25 de Diciembre de 2026. ¡Esperamos celebrar contigo!`;
+      const msg = buildWaText(nombre, cupos, url);
       navigator.clipboard.writeText(msg).then(() => {
         const old = btn.textContent;
-        btn.textContent = '✅ ¡Mensaje Copiado!';
+        btn.textContent = '✅ Copiado';
         setTimeout(() => btn.textContent = old, 1800);
       });
+    }
+
+    function copyUpdatedPhonesSummary(btn) {
+      const phones = getLocalPhones();
+      const lines = [];
+      Object.keys(phones).forEach(code => {
+        const guest = rawInvitados.find(g => (g.codigo || g.id) === code);
+        const name = guest ? guest.nombre : code;
+        lines.push(`${code} | ${name} | ${phones[code]}`);
+      });
+      const text = `ACTUALIZACIÓN DE TELÉFONOS:\n` + lines.join('\n');
+      navigator.clipboard.writeText(text).then(() => {
+        const old = btn.textContent;
+        btn.textContent = '✅ ¡Copiado!';
+        setTimeout(() => btn.textContent = old, 2000);
+        alert('Teléfonos copiados al portapapeles. Puedes pegarlos directamente en el chat de WhatsApp con el Agente para guardarlos en la base de datos oficial.');
+      });
+    }
+
+    function exportUpdatedJson() {
+      const phones = getLocalPhones();
+      const updated = rawInvitados.map(g => {
+        const code = g.codigo || g.id;
+        return {
+          ...g,
+          telefono: phones[code] || g.telefono || ''
+        };
+      });
+      const blob = new Blob([JSON.stringify({ invitados: updated }, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `invitados_con_telefonos_${Date.now()}.json`;
+      a.click();
     }
 
     loadData();

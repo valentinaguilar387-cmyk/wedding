@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 13/11/2026, 3:38:51 p. m.*
+> *Actualizado automáticamente: 17/11/2026, 1:46:05 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
