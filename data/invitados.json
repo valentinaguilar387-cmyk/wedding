@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:19:45.614Z",
+  "updated_at": "2026-11-23T21:19:48.053Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -118,18 +118,19 @@
       "lado": "Novio (Valentín)",
       "grupo": "Invitados del Novio",
       "pases_asignados": 2,
-      "pases_confirmados": 0,
+      "pases_confirmados": 2,
       "cupos": 2,
-      "confirmados": 0,
-      "estado": "PENDIENTE",
+      "confirmados": 2,
+      "estado": "CONFIRMADO",
       "mesa": "",
-      "mensaje": "",
+      "mensaje": "Gracias gordovai vamos a estar",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:18:15.928Z",
+      "ultimo_contacto": "2026-11-23T21:19:48.053Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-006",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:18:15.928Z",
-      "wa_msg_id": "3EB048C32CD789854B769D"
+      "wa_msg_id": "3EB048C32CD789854B769D",
+      "ultima_respuesta_wa": "Gracias gordovai vamos a estar"
     },
     {
       "id": "INV-007",
