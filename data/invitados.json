@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:41:54.812949+00:00",
+  "updated_at": "2026-11-23T20:13:42.170Z",
   "resumen": {
     "total_grupos": 58,
     "cupos_novio": 43,
@@ -1051,6 +1051,38 @@
       "notas": "ESTOS SOLO HAY QUE HACER LA INVITACION",
       "ultimo_contacto": null,
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-058"
+    },
+    {
+      "id": "INV-059",
+      "codigo": "VL-059",
+      "nombre": "Danilo Cortez",
+      "telefono": "50374129307",
+      "lado": "Novio (Valentín)",
+      "mesa": "",
+      "pases_asignados": 2,
+      "pases_confirmados": 0,
+      "estado": "PENDIENTE",
+      "mensaje": "",
+      "notas": "Agregado por Valentín vía WhatsApp",
+      "link_github": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-059",
+      "link_nexus": "https://globalnexussv.com/yubaefkc7c34ae88-x9k4m2p7q84355/wedding/?pase=VL-059",
+      "updated_at": "2026-11-23T20:13:42.109Z"
+    },
+    {
+      "id": "INV-060",
+      "codigo": "VL-060",
+      "nombre": "Mauricio Maravilla",
+      "telefono": "50371488446",
+      "lado": "Novio (Valentín)",
+      "mesa": "",
+      "pases_asignados": 1,
+      "pases_confirmados": 0,
+      "estado": "PENDIENTE",
+      "mensaje": "",
+      "notas": "Agregado por Valentín vía WhatsApp",
+      "link_github": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-060",
+      "link_nexus": "https://globalnexussv.com/yubaefkc7c34ae88-x9k4m2p7q84355/wedding/?pase=VL-060",
+      "updated_at": "2026-11-23T20:13:42.168Z"
     }
   ]
 }

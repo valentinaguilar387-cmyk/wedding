@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 2:08:54 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 2:13:42 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -9,7 +9,7 @@
 - **Fecha límite RSVP:** 25 de Diciembre de 2026
 - **Dresscode:** Dresscode - Casual Jardín
 - **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
-- **Invitados y Confirmaciones (RSVP):** 58 grupos registrados (96 pases asignados) | ✅ **0 pases confirmados** (0 grupos) | ⏳ 58 pendientes | ❌ 0 declinados
+- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **0 pases confirmados** (0 grupos) | ⏳ 60 pendientes | ❌ 0 declinados
 
 ## ✅ 2. Checklist de Planificación
 | ID | Fase | Tarea | Estado | Prioridad | Notas |
@@ -109,3 +109,5 @@
 | INV-056 | Gloria Alfaro | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
 | INV-057 | Lidia Mejia | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
 | INV-058 | Franklin Marin | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
+| INV-059 | Danilo Cortez | 50374129307 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Agregado por Valentín vía WhatsApp |
+| INV-060 | Mauricio Maravilla | 50371488446 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Agregado por Valentín vía WhatsApp |
