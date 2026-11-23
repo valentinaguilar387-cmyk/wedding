@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 4:43:28 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 5:01:55 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -9,7 +9,7 @@
 - **Fecha límite RSVP:** 25 de Diciembre de 2026
 - **Dresscode:** Dresscode - Casual Jardín
 - **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
-- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **22 pases confirmados** (13 grupos) | ⏳ 47 pendientes | ❌ 0 declinados
+- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **23 pases confirmados** (14 grupos) | ⏳ 46 pendientes | ❌ 0 declinados
 
 ## ✅ 2. Checklist de Planificación
 | ID | Fase | Tarea | Estado | Prioridad | Notas |
@@ -78,7 +78,7 @@ Gracias. |
 | INV-021 | Henry Gutierrez | 50371906647 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-022 | Jaime Figueroa | 50370081032 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-023 | Diego Muñoz | 50378033499 | Novio (Valentín) | - | 1 | 1 | **CONFIRMADO** | Confirmó |
-| INV-024 | Luis Rodriguez | 50369919788 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-024 | Luis Rodriguez | 50369919788 | Novio (Valentín) | - | 1 | 1 | **CONFIRMADO** | Confirmo |
 | INV-025 | Anderson Rodriguez | 50372063076 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Esooooo!!! 
 Gracias bro!!! 
 Reservado!! 
