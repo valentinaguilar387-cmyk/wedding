@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:25:59.381Z",
+  "updated_at": "2026-11-23T21:26:07.792Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -606,18 +606,19 @@
       "lado": "Novia (Liliana)",
       "grupo": "Invitados de la Novia",
       "pases_asignados": 3,
-      "pases_confirmados": 0,
+      "pases_confirmados": 3,
       "cupos": 3,
-      "confirmados": 0,
-      "estado": "PENDIENTE",
+      "confirmados": 3,
+      "estado": "CONFIRMADO",
       "mesa": "",
-      "mensaje": "",
+      "mensaje": "Hola grasias por su invitacion ayi estaremos  primero dios",
       "notas": "Importado de LISTADO.xlsx (Novia)",
-      "ultimo_contacto": "2026-11-23T21:21:40.703Z",
+      "ultimo_contacto": "2026-11-23T21:26:07.792Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-029",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:21:40.703Z",
-      "wa_msg_id": "3EB0EC759724309497C685"
+      "wa_msg_id": "3EB0EC759724309497C685",
+      "ultima_respuesta_wa": "Hola grasias por su invitacion ayi estaremos  primero dios"
     },
     {
       "id": "INV-030",
