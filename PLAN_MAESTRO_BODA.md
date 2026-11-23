@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 3:32:29 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 3:32:33 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -9,7 +9,7 @@
 - **Fecha límite RSVP:** 25 de Diciembre de 2026
 - **Dresscode:** Dresscode - Casual Jardín
 - **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
-- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **13 pases confirmados** (6 grupos) | ⏳ 54 pendientes | ❌ 0 declinados
+- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **14 pases confirmados** (7 grupos) | ⏳ 53 pendientes | ❌ 0 declinados
 
 ## ✅ 2. Checklist de Planificación
 | ID | Fase | Tarea | Estado | Prioridad | Notas |
@@ -86,7 +86,7 @@
 | INV-033 | Walter Anaya | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-034 | Vanessa Garcia | 50362044528 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-035 | Adriana Garay | 50376183755 | Novia (Liliana) | - | 4 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-036 | Rony Santos | 50375281738 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-036 | Rony Santos | 50375281738 | Novia (Liliana) | - | 1 | 1 | **CONFIRMADO** | Buenas tardes. Si confirmo. |
 | INV-037 | Abigail Aguilar | 50373733500 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-038 | Isaura Sanchez | 50377371939 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-039 | Brenda Ponce | 50370061644 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |

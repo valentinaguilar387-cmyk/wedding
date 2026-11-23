@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:32:29.569Z",
+  "updated_at": "2026-11-23T21:32:33.090Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -754,18 +754,19 @@
       "lado": "Novia (Liliana)",
       "grupo": "Invitados de la Novia",
       "pases_asignados": 1,
-      "pases_confirmados": 0,
+      "pases_confirmados": 1,
       "cupos": 1,
-      "confirmados": 0,
-      "estado": "PENDIENTE",
+      "confirmados": 1,
+      "estado": "CONFIRMADO",
       "mesa": "",
-      "mensaje": "",
+      "mensaje": "Buenas tardes. Si confirmo.",
       "notas": "Importado de LISTADO.xlsx (Novia)",
-      "ultimo_contacto": "2026-11-23T21:22:35.281Z",
+      "ultimo_contacto": "2026-11-23T21:32:33.090Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-036",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:22:35.281Z",
-      "wa_msg_id": "3EB097FA0762391DC59AE9"
+      "wa_msg_id": "3EB097FA0762391DC59AE9",
+      "ultima_respuesta_wa": "Buenas tardes. Si confirmo."
     },
     {
       "id": "INV-037",
