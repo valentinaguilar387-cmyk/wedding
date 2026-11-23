@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 4:00:26 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 4:00:28 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -9,7 +9,7 @@
 - **Fecha límite RSVP:** 25 de Diciembre de 2026
 - **Dresscode:** Dresscode - Casual Jardín
 - **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
-- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **19 pases confirmados** (10 grupos) | ⏳ 50 pendientes | ❌ 0 declinados
+- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **20 pases confirmados** (11 grupos) | ⏳ 49 pendientes | ❌ 0 declinados
 
 ## ✅ 2. Checklist de Planificación
 | ID | Fase | Tarea | Estado | Prioridad | Notas |
@@ -74,7 +74,7 @@ Gracias. |
 | INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Iré con acompañante |
 | INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | hey gracias, si vamos a ir |
 | INV-019 | Walter Antonio | 50360256724 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-020 | Dennis Wilber | 50369931406 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-020 | Dennis Wilber | 50369931409 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-021 | Henry Gutierrez | 50371906647 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-022 | Jaime Figueroa | 50370081032 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-023 | Diego Muñoz | 50378033499 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
@@ -101,7 +101,7 @@ Reservado!!
 | INV-041 | Arely Menjivar | 50373658215 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-042 | Ariana Escobar | 50379714907 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-043 | Jose Martinez | 50360231579 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-044 | Luis Rodriguez | 50376901969 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-044 | Luis Rodriguez | 50376901969 | Novia (Liliana) | - | 1 | 1 | **CONFIRMADO** | Confirmo |
 | INV-045 | David Merino | 50361016897 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-046 | Edwin Barrera | 50372866241 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-047 | Brayan Siguenza | 50370458593 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
