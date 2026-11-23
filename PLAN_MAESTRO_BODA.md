@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 3:06:57 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 3:15:26 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -52,59 +52,59 @@
 | ID | Nombre / Familia | Teléfono | Lado | Mesa | Pases Asignados | Pases Confirmados | Estado RSVP | Mensaje / Notas |
 |---|---|---|---|---|---|---|---|---|
 | INV-001 | Emilia Contreras | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-002 | Rigoberto Aguilar | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-003 | Carlos Aguilar | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-004 | Esperanza Contreras | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-005 | Manuel Campos | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-006 | Daniel Quintanilla | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-007 | Eduardo Tobar | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-008 | Doris Cea | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-009 | Luis Valencia | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-010 | Guillermo Marroquin | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-011 | Aaron Marroquin | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-012 | Kevin Telule | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-013 | Oscar Melgar | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-014 | Cristian Argueta | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-015 | Claudia Alfaro | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-016 | Jenifer Avalos | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-017 | Danilo Maldonado | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-018 | Edilberto Navarrete | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-019 | Walter Antonio | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-020 | Dennis Wilber | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-021 | Henry Gutierrez | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-022 | Jaime Figueroa | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-023 | Diego Muñoz | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-024 | Luis Rodriguez | - | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-025 | Anderson Rodriguez | - | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-026 | Antonia Rivera | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-027 | Armando Marin | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-028 | Alcides Franco | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-029 | Ester Marin | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-030 | Elmer Alvarado | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-031 | Brandon Moran | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-032 | Victor Mejia | - | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-002 | Rigoberto Aguilar | 50364352578 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-003 | Carlos Aguilar | 50378978943 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-004 | Esperanza Contreras | 50376241312 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-005 | Manuel Campos | 50370671954 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-006 | Daniel Quintanilla | 50370257617 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-007 | Eduardo Tobar | 50379889518 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-008 | Doris Cea | 50378539447 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-009 | Luis Valencia | 50377376698 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-010 | Guillermo Marroquin | 50372485609 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-011 | Aaron Marroquin | 50360549608 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-012 | Kevin Telule | 50370490074 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-013 | Oscar Melgar | 50375089172 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-014 | Cristian Argueta | 50368452534 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-015 | Claudia Alfaro | 50371906620 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-016 | Jenifer Avalos | 50372644796 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-019 | Walter Antonio | 50360256724 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-020 | Dennis Wilber | 50369931409 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-021 | Henry Gutierrez | 50371906647 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-022 | Jaime Figueroa | 50370081032 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-023 | Diego Muñoz | 50378033499 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-024 | Luis Rodriguez | 50369919788 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-025 | Anderson Rodriguez | 50372063076 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-026 | Antonia Rivera | 50362077834 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-027 | Armando Marin | 50372169767 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-028 | Alcides Franco | 50369602133 | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-029 | Ester Marin | 50378592078 | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-030 | Elmer Alvarado | 50378473431 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-031 | Brandon Moran | 50379531942 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-032 | Victor Mejia | 50370949324 | Novia (Liliana) | - | 3 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-033 | Walter Anaya | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-034 | Vanessa Garcia | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-035 | Adriana Garay | - | Novia (Liliana) | - | 4 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-036 | Rony Santos | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-037 | Abigail Aguilar | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-038 | Isaura Sanchez | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-039 | Brenda Ponce | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-040 | Wendy Gonzalez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-041 | Arely Menjivar | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-042 | Ariana Escobar | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-043 | Jose Martinez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-044 | Luis Rodriguez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-045 | David Merino | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-046 | Edwin Barrera | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-047 | Brayan Siguenza | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-048 | Josefina Villatoro | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-049 | Gerardo Alvarado | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-050 | Ruth Hernandez | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-051 | Karen Santos | - | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-034 | Vanessa Garcia | 50362044528 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-035 | Adriana Garay | 50376183755 | Novia (Liliana) | - | 4 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-036 | Rony Santos | 50375281738 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-037 | Abigail Aguilar | 50373733500 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-038 | Isaura Sanchez | 50377371939 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-039 | Brenda Ponce | 50370061644 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-040 | Wendy Gonzalez | 50379981664 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-041 | Arely Menjivar | 50373658215 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-042 | Ariana Escobar | 50379714907 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-043 | Jose Martinez | 50360231579 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-044 | Luis Rodriguez | 50376901969 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-045 | David Merino | 50361016897 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-046 | Edwin Barrera | 50372866241 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-047 | Brayan Siguenza | 50370458593 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-048 | Josefina Villatoro | 50378026593 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-049 | Gerardo Alvarado | 50376519693 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-050 | Ruth Hernandez | 50376954490 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-051 | Karen Santos | 50372456022 | Novia (Liliana) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-052 | Noemy Marin | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-053 | Walter De Paz | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
-| INV-054 | Walter Marin | - | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-053 | Walter De Paz | 50378187179 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
+| INV-054 | Walter Marin | 50374026143 | Novia (Liliana) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novia) |
 | INV-055 | Blanca Chicas | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
 | INV-056 | Gloria Alfaro | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
 | INV-057 | Lidia Mejia | - | Cortesía (Solo Invitación) | - | 1 | 0 | **PENDIENTE** | ESTOS SOLO HAY QUE HACER LA INVITACION |
