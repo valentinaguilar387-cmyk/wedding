@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:34:12.980Z",
+  "updated_at": "2026-11-23T21:36:01.529Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -213,11 +213,12 @@
       "mesa": "",
       "mensaje": "",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:18:47.444Z",
+      "ultimo_contacto": "2026-11-23T21:36:01.529Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-010",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:18:47.444Z",
-      "wa_msg_id": "3EB0F1F3E30A570B6FBBCB"
+      "wa_msg_id": "3EB0F1F3E30A570B6FBBCB",
+      "ultima_respuesta_wa": "Pregunta mi espisita si en la fiesta va haber perreo jaja"
     },
     {
       "id": "INV-011",
