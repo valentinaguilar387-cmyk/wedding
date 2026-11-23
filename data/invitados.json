@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T20:13:42.170Z",
+  "updated_at": "2026-11-23T21:06:48.894Z",
   "resumen": {
     "total_grupos": 58,
     "cupos_novio": 43,
@@ -1066,7 +1066,11 @@
       "notas": "Agregado por Valentín vía WhatsApp",
       "link_github": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-059",
       "link_nexus": "https://globalnexussv.com/yubaefkc7c34ae88-x9k4m2p7q84355/wedding/?pase=VL-059",
-      "updated_at": "2026-11-23T20:13:42.109Z"
+      "updated_at": "2026-11-23T20:13:42.109Z",
+      "invitacion_enviada": true,
+      "fecha_envio": "2026-11-23T21:06:48.893Z",
+      "ultimo_contacto": "2026-11-23T21:06:48.893Z",
+      "wa_msg_id": "3EB0755D64FBB505CC95B1"
     },
     {
       "id": "INV-060",
