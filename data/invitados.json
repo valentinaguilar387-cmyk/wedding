@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:30:02.181Z",
+  "updated_at": "2026-11-23T22:32:18.147Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -489,18 +489,19 @@
       "lado": "Novio (Valentín)",
       "grupo": "Invitados del Novio",
       "pases_asignados": 1,
-      "pases_confirmados": 0,
+      "pases_confirmados": 1,
       "cupos": 1,
-      "confirmados": 0,
-      "estado": "PENDIENTE",
+      "confirmados": 1,
+      "estado": "CONFIRMADO",
       "mesa": "",
-      "mensaje": "",
+      "mensaje": "Confirmó",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:20:46.446Z",
+      "ultimo_contacto": "2026-11-23T22:32:18.147Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-023",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:20:46.446Z",
-      "wa_msg_id": "3EB048797FED724AADC39B"
+      "wa_msg_id": "3EB048797FED724AADC39B",
+      "ultima_respuesta_wa": "Confirmó"
     },
     {
       "id": "INV-024",
