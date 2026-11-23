@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:26:35.110Z",
+  "updated_at": "2026-11-23T21:26:35.542Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -83,11 +83,12 @@
       "mesa": "",
       "mensaje": "",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:17:56.756Z",
+      "ultimo_contacto": "2026-11-23T21:26:35.542Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-004",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:17:56.756Z",
-      "wa_msg_id": "3EB0CB87BD6A804831F9F1"
+      "wa_msg_id": "3EB0CB87BD6A804831F9F1",
+      "ultima_respuesta_wa": "Gracias pero x la hora veré si puedo acompañarte x los tremendos"
     },
     {
       "id": "INV-005",
@@ -358,14 +359,14 @@
       "confirmados": 2,
       "estado": "CONFIRMADO",
       "mesa": "",
-      "mensaje": "Nos vemos el 23 primero Dios 💔",
+      "mensaje": "Iré con acompañante",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:26:35.110Z",
+      "ultimo_contacto": "2026-11-23T21:25:59.381Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-017",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:19:49.621Z",
       "wa_msg_id": "3EB0485F71D8376E9D66E8",
-      "ultima_respuesta_wa": "Nos vemos el 23 primero Dios 💔"
+      "ultima_respuesta_wa": "Iré con acompañante"
     },
     {
       "id": "INV-018",
