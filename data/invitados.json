@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:22:20.312Z",
+  "updated_at": "2026-11-23T21:22:27.276Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -735,8 +735,11 @@
       "mesa": "",
       "mensaje": "",
       "notas": "Importado de LISTADO.xlsx (Novia)",
-      "ultimo_contacto": null,
-      "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-035"
+      "ultimo_contacto": "2026-11-23T21:22:27.276Z",
+      "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-035",
+      "invitacion_enviada": true,
+      "fecha_envio": "2026-11-23T21:22:27.276Z",
+      "wa_msg_id": "3EB033777C635F9ACA0199"
     },
     {
       "id": "INV-036",
