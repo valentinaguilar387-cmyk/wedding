@@ -520,7 +520,7 @@
                 ${waPhone ? `<button class="btn btn-sm btn-green" title="Enviar mensaje de WhatsApp" onclick="directWhatsApp('${waPhone}', '${safeName}', ${cupos}, '${ghLink}')">💬</button>` : ''}
               </div>
             </td>
-            <td><span class="badge b-${g.estado}">${g.estado}</span></td>
+            <td><span class="badge b-${g.estado}">${g.estado === 'CONFIRMADO' ? `CONFIRMADO (${g.pases_confirmados || g.confirmados || cupos}/${cupos})` : g.estado}</span></td>
             <td style="white-space:nowrap;">
               <button class="btn btn-outline btn-sm" onclick="copyLink('${ghLink}', this)">🔗 Link</button>
               <button class="btn btn-outline btn-sm" style="margin-left:3px;" onclick="copyWaMsg('${safeName}', ${cupos}, '${ghLink}', this)">📋 WA</button>
@@ -550,7 +550,7 @@
               </div>
               <div class="card-badges">
                 <span class="badge" style="background:rgba(212,163,89,0.2);color:var(--accent);">${cupos} ${cupos === 1 ? 'cupo' : 'cupos'}</span>
-                <span class="badge b-${g.estado}">${g.estado}</span>
+                <span class="badge b-${g.estado}">${g.estado === 'CONFIRMADO' ? `CONFIRMADO (${g.pases_confirmados || g.confirmados || cupos}/${cupos})` : g.estado}</span>
               </div>
             </div>
 
