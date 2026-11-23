@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 3:26:35 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 3:27:49 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -9,7 +9,7 @@
 - **Fecha límite RSVP:** 25 de Diciembre de 2026
 - **Dresscode:** Dresscode - Casual Jardín
 - **Progreso Checklist:** 7/20 completadas (0 en proceso, 13 pendientes)
-- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **11 pases confirmados** (5 grupos) | ⏳ 55 pendientes | ❌ 0 declinados
+- **Invitados y Confirmaciones (RSVP):** 60 grupos registrados (99 pases asignados) | ✅ **13 pases confirmados** (6 grupos) | ⏳ 54 pendientes | ❌ 0 declinados
 
 ## ✅ 2. Checklist de Planificación
 | ID | Fase | Tarea | Estado | Prioridad | Notas |
@@ -68,7 +68,7 @@
 | INV-015 | Claudia Alfaro | 50371906620 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Asistiremos 2 |
 | INV-016 | Jenifer Avalos | 50372644796 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Iré con acompañante |
-| INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | hey gracias, si vamos a ir |
 | INV-019 | Walter Antonio | 50360256724 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-020 | Dennis Wilber | 50369931409 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-021 | Henry Gutierrez | 50371906647 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
