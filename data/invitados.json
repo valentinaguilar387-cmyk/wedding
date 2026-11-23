@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:19:20.734Z",
+  "updated_at": "2026-11-23T21:19:23.915Z",
   "resumen": {
     "total_grupos": 60,
     "cupos_novio": 46,
@@ -230,11 +230,12 @@
       "mesa": "",
       "mensaje": "",
       "notas": "Importado de LISTADO.xlsx (Novio)",
-      "ultimo_contacto": "2026-11-23T21:18:57.687Z",
+      "ultimo_contacto": "2026-11-23T21:19:23.915Z",
       "link_invitacion": "https://valentinaguilar387-cmyk.github.io/wedding/?pase=VL-011",
       "invitacion_enviada": true,
       "fecha_envio": "2026-11-23T21:18:57.687Z",
-      "wa_msg_id": "3EB0B77A092D0D22502F2C"
+      "wa_msg_id": "3EB0B77A092D0D22502F2C",
+      "ultima_respuesta_wa": "Cabal, en eso estaba pensando"
     },
     {
       "id": "INV-012",
