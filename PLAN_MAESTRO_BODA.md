@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 3:59:23 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 4:00:26 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -74,7 +74,7 @@ Gracias. |
 | INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Iré con acompañante |
 | INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | hey gracias, si vamos a ir |
 | INV-019 | Walter Antonio | 50360256724 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-020 | Dennis Wilber | 50369931409 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
+| INV-020 | Dennis Wilber | 50369931406 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-021 | Henry Gutierrez | 50371906647 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-022 | Jaime Figueroa | 50370081032 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-023 | Diego Muñoz | 50378033499 | Novio (Valentín) | - | 1 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
