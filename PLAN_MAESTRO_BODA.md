@@ -1,5 +1,5 @@
 # 💍 PLAN MAESTRO DE BODA — Valentín & Liliana
-> *Actualizado automáticamente: 23/11/2026, 3:26:07 p. m.*
+> *Actualizado automáticamente: 23/11/2026, 3:26:35 p. m.*
 
 ## 📊 1. Resumen Ejecutivo
 - **Novios:** Valentín & Liliana
@@ -67,7 +67,7 @@
 | INV-014 | Cristian Argueta | 50368452534 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-015 | Claudia Alfaro | 50371906620 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Asistiremos 2 |
 | INV-016 | Jenifer Avalos | 50372644796 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
-| INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Iré con acompañante |
+| INV-017 | Danilo Maldonado | 50377121661 | Novio (Valentín) | - | 2 | 2 | **CONFIRMADO** | Nos vemos el 23 primero Dios 💔 |
 | INV-018 | Edilberto Navarrete | 50377454951 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-019 | Walter Antonio | 50360256724 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
 | INV-020 | Dennis Wilber | 50369931409 | Novio (Valentín) | - | 2 | 0 | **PENDIENTE** | Importado de LISTADO.xlsx (Novio) |
